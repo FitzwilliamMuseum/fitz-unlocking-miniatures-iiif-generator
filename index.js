@@ -4,6 +4,8 @@ import config from './config.js';
 
 const { apiBase } = config;
 
+//Directus APi endpoints
+
 async function fetchMiniatureAll() {
     const response = await fetch(apiBase + "items/miniatures");
     return (await response.json()).data;
@@ -47,9 +49,12 @@ async function fetchFileObject(id) {
 async function main() {
 
     const { fieldMap } = config;
+
+    //Download all migrographs and miniatures from their API listing
     const micrographData = await fetchMicrographAll();
     const miniatureAll = await fetchMiniatureAll();
 
+    //For each miniature
     for (let i = 0; i < miniatureAll.length; i++) {
 
         const data = miniatureAll[i];
@@ -60,14 +65,17 @@ async function main() {
 
         console.log(`miniature: ${i} ${miniatureId}`);
 
+        //Create output directory for this miniature
         const outputFilePath = "output/" + miniatureId;
         try {
-            await fsPromises.mkdir(outputFilePath);
+            await fsPromises.mkdir(outputFilePath, { recursive: true });
         }
         catch (error) {
 
         }
 
+        //Download directus object data for each image.
+        //Including format, width/height
         const images = [];
         for (let j = 0; j < fieldMap.image.length; j++) {
             const item = fieldMap.image[j];
@@ -104,6 +112,7 @@ async function main() {
                 ]
             });
 
+            //Optionaly download image file and create iiif image info.json
             if (config.downloadImages) {
                 try {
                     await fsPromises.mkdir(imageDownloadDir, { recursive: true });
@@ -155,8 +164,11 @@ async function main() {
         const annotationPageId = basePath + "page/0/0";
         const annotationPaintingId = basePath + "painting/0";
 
+        //Calculate physical scale - used for ruler.
         const physicalScale = +(data[fieldMap.dimensionsHeight] / canvasHeight).toFixed(4);
 
+        //Build iiif annotation for each miniature annotation marked with 'hotspot'.
+        //Including coordinates.
         const annotationItems = [];
         for (let j = 0; j < data[fieldMap.annotation.key].length; j++) {
             const micrographId = data[fieldMap.annotation.key][j];
@@ -180,6 +192,7 @@ async function main() {
             });
         }
 
+        //Build iiif presentation manifest
         const manifest = {
             "@context": "http://iiif.io/api/presentation/3/context.json",
             "id": manifestId,
