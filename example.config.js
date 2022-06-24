@@ -2,38 +2,35 @@ export default {
     apiBase: "https://api.example.com/",
     basePath: "http://iiif.example.com/",
     accessToken: "ACCESS_TOKEN",
-    imageBasePath: "http://iiif.example.com/images/",
-    imageDefaultId: "/full/max/0/default.jpg",
+    downloadImages: true,
+    imagesPublicPath: "images/",
     dimensionsUnits: "mm",
     fieldMap: {
+        publicPath: "accession_number",
         label: "title",
         description: ["description_content", "description_physical"],
+        imagePublicPath: "title",
         image: [
             {
                 "key": "image_normal_light",
-                "label": "Natural Light",
-                "publicPath": "FM_3868_NL"
+                "label": "Natural Light"
             },
             {
                 "key": "image_raking_light",
-                "label": "Raking Light",
-                "publicPath": "FM_3868_RL"
+                "label": "Raking Light"
 
             },
             {
                 "key": "image_infrared",
-                "label": "Infrared",
-                "publicPath": "FM_3868_NIR"
+                "label": "Infrared"
             },
             {
                 "key": "image_uv",
-                "label": "Ultraviolet",
-                "publicPath": "FM_3868_UV"
+                "label": "Ultraviolet"
             },
             {
                 "key": "image_xray",
-                "label": "X-ray",
-                "publicPath": "FM_3868_x-ray"
+                "label": "X-ray"
             }
         ],
         dimensionsHeight: "dimensions_unframed_height",

@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import fs, { promises as fsPromises } from 'fs';
+import { promises as fsPromises } from 'fs';
 import config from './config.js';
 
 const { apiBase } = config;
@@ -104,47 +104,49 @@ async function main() {
                 ]
             });
 
-            try {
-                await fsPromises.mkdir(imageDownloadDir, { recursive: true });
-            }
-            catch (error) {
+            if (config.downloadImages) {
+                try {
+                    await fsPromises.mkdir(imageDownloadDir, { recursive: true });
+                }
+                catch (error) {
 
-            }
-            await downloadImage(imageData.id, imageDownloadFile);
+                }
+                await downloadImage(imageData.id, imageDownloadFile);
 
-            const imageInfo = {
-                "@context": "http://iiif.io/api/image/3/context.json",
-                "id": imageServiceId,
-                "type": "ImageService3",
-                "profile": "level0",
-                "protocol": "http://iiif.io/api/image",
-                "height": imageData.height,
-                "width": imageData.width,
-                "extraFormats": [
-                    "jpg"
-                ],
-                "extraQualities": [
-                    "default"
-                ],
-                "extraFeatures": [],
-                "tiles": [
-                    {
-                        "scaleFactors": [
-                            1
-                        ],
-                        "height": imageData.height,
-                        "width": imageData.width,
-                    }
-                ],
-                "sizes": [
-                    {
-                        "height": imageData.height,
-                        "width": imageData.width,
-                    }
-                ]
-            }
+                const imageInfo = {
+                    "@context": "http://iiif.io/api/image/3/context.json",
+                    "id": imageServiceId,
+                    "type": "ImageService3",
+                    "profile": "level0",
+                    "protocol": "http://iiif.io/api/image",
+                    "height": imageData.height,
+                    "width": imageData.width,
+                    "extraFormats": [
+                        "jpg"
+                    ],
+                    "extraQualities": [
+                        "default"
+                    ],
+                    "extraFeatures": [],
+                    "tiles": [
+                        {
+                            "scaleFactors": [
+                                1
+                            ],
+                            "height": imageData.height,
+                            "width": imageData.width,
+                        }
+                    ],
+                    "sizes": [
+                        {
+                            "height": imageData.height,
+                            "width": imageData.width,
+                        }
+                    ]
+                }
 
-            await fsPromises.writeFile(imageInfoFile, JSON.stringify(imageInfo, null, "    "));
+                await fsPromises.writeFile(imageInfoFile, JSON.stringify(imageInfo, null, "    "));
+            }
         }
 
         const canvasHeight = images[0]?.height || 1800;
