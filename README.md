@@ -8,3 +8,5 @@ yarn install
 ```
 node index.js
 ```
+
+Directus `access_token` authentication required for files and assets endpoints. You can generate on in the directus admin web ui.
