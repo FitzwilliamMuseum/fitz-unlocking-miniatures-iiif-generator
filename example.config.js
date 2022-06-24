@@ -3,8 +3,13 @@ export default {
     host: "http://viewer.example.com/",
     basePath: "iiif/",
     accessToken: "ACCESS_TOKEN",
-    downloadImages: true,
-    imagesPublicPath: "images/",
+    image: {
+        download: true,
+        publicPath: "images/",
+        scale: false,
+        scaleMinWidth: 50,
+        scaleIncrement: 0.5,
+    },
     dimensionsUnits: "mm",
     fieldMap: {
         publicPath: "accession_number",

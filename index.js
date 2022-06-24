@@ -27,13 +27,20 @@ async function fetchMicrograph(id) {
     return (await response.json()).data;
 }
 
-async function downloadImage(id, outputFilePath) {
-    const options = {
+async function downloadImage(id, outputFilePath, imageOptions) {
+    const httpOptions = {
         headers: {
             "Authorization": "Bearer " + config.accessToken
         }
     }
-    const response = await fetch(apiBase + "assets/" + id + "?height=1024&quality=80", options);
+    let path = apiBase + "assets/" + id + "?quality=90";
+    if (imageOptions.width != undefined) {
+        path += "&width=" + imageOptions.width;
+    }
+    if (imageOptions.height != undefined) {
+        path += "&height=" + imageOptions.height;
+    }
+    const response = await fetch(path, httpOptions);
     return fsPromises.writeFile(outputFilePath, response.body);
 }
 
@@ -84,13 +91,11 @@ async function main() {
             console.log("image", j);
             const imageData = await fetchFileObject(data[item.key]);
 
-            const imageBasePath = config.imagesPublicPath + imageData[fieldMap.imagePublicPath].toUpperCase().replace(/\s/g, '_');
+            const imageBasePath = config.image.publicPath + imageData[fieldMap.imagePublicPath].toUpperCase().replace(/\s/g, '_');
             const imageFullPath = imageBasePath + "/full/max/0";
 
             const imageId = config.host + path.join(config.basePath, miniatureId, imageFullPath, "default.jpg");
             const imageServiceId = config.host + path.join(config.basePath, miniatureId, imageBasePath);
-            const imageDownloadDir = path.join(outputFilePath, imageFullPath);
-            const imageDownloadFile = path.join(outputFilePath, imageFullPath, "default.jpg");
             const imageInfoFile = path.join(outputFilePath, imageBasePath, "info.json");
 
             images.push({
@@ -114,14 +119,34 @@ async function main() {
             });
 
             //Optionaly download image file and create iiif image info.json
-            if (config.downloadImages) {
-                try {
-                    await fsPromises.mkdir(imageDownloadDir, { recursive: true });
-                }
-                catch (error) {
+            if (config.image.download) {
 
-                }
-                await downloadImage(imageData.id, imageDownloadFile);
+                let workingImageWidth = imageData.width;
+                let workingImageHeight = imageData.height;
+                const imageScaleList = [];
+                do {
+                    const imageSizePath = path.join(
+                        imageBasePath,
+                        "full",
+                        workingImageWidth == imageData.width ? "max" : workingImageWidth + "," + workingImageHeight,
+                        "0"
+                    );
+                    const imageDownloadDir = path.join(outputFilePath, imageSizePath);
+                    const imageDownloadFile = path.join(outputFilePath, imageSizePath, "default.jpg");
+                    try {
+                        await fsPromises.mkdir(imageDownloadDir, { recursive: true });
+                    }
+                    catch (error) {
+
+                    }
+                    await downloadImage(imageData.id, imageDownloadFile, { width: workingImageWidth, height: workingImageHeight });
+                    imageScaleList.push({
+                        "width": workingImageWidth,
+                        "height": workingImageHeight,
+                    })
+                    workingImageWidth = Math.ceil(workingImageWidth * config.image.scaleIncrement);
+                    workingImageHeight = Math.ceil(workingImageHeight * config.image.scaleIncrement);
+                } while (config.image.scale && workingImageWidth > config.image.scaleMinWidth)
 
                 const imageInfo = {
                     "@context": "http://iiif.io/api/image/3/context.json",
@@ -147,16 +172,13 @@ async function main() {
                             "width": imageData.width,
                         }
                     ],
-                    "sizes": [
-                        {
-                            "height": imageData.height,
-                            "width": imageData.width,
-                        }
-                    ]
+                    "sizes": imageScaleList
                 }
 
                 await fsPromises.writeFile(imageInfoFile, JSON.stringify(imageInfo, null, "    "));
             }
+
+            break;
         }
 
         const canvasHeight = images[0]?.height || 1800;
@@ -252,6 +274,8 @@ async function main() {
         }
 
         await fsPromises.writeFile(path.join(outputFilePath, "manifest.json"), JSON.stringify(manifest, null, "    "));
+
+        break;
     }
 }
 
