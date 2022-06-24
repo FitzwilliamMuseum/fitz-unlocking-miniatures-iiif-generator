@@ -1,6 +1,7 @@
 export default {
     apiBase: "https://api.example.com/",
-    basePath: "http://iiif.example.com/",
+    host: "http://viewer.example.com/",
+    basePath: "iiif/",
     accessToken: "ACCESS_TOKEN",
     downloadImages: true,
     imagesPublicPath: "images/",
@@ -18,7 +19,6 @@ export default {
             {
                 "key": "image_raking_light",
                 "label": "Raking Light"
-
             },
             {
                 "key": "image_infrared",

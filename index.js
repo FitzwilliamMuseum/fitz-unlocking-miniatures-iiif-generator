@@ -1,6 +1,7 @@
 import fetch from 'node-fetch';
 import { promises as fsPromises } from 'fs';
 import config from './config.js';
+import path from 'path';
 
 const { apiBase } = config;
 
@@ -59,9 +60,9 @@ async function main() {
 
         const data = miniatureAll[i];
         const miniatureId = data[fieldMap.publicPath];
-        const basePath = config.basePath + miniatureId + "/";
-        const manifestId = basePath + "manifest.json";
-        const canvasId = basePath + "canvas/0";
+        const basePath = config.host + path.join(config.basePath, miniatureId);
+        const manifestId = path.join(basePath, "manifest.json");
+        const canvasId = path.join(basePath, "canvas/0");
 
         console.log(`miniature: ${i} ${miniatureId}`);
 
@@ -86,11 +87,11 @@ async function main() {
             const imageBasePath = config.imagesPublicPath + imageData[fieldMap.imagePublicPath].toUpperCase().replace(/\s/g, '_');
             const imageFullPath = imageBasePath + "/full/max/0";
 
-            const imageId = config.basePath + miniatureId + "/" + imageFullPath + "/default.jpg";
-            const imageServiceId = config.basePath + miniatureId + "/" + imageBasePath;
-            const imageDownloadDir = outputFilePath + "/" + imageFullPath;
-            const imageDownloadFile = outputFilePath + "/" + imageFullPath + "/default.jpg";
-            const imageInfoFile = outputFilePath + "/" + imageBasePath + "/info.json";
+            const imageId = config.host + path.join(config.basePath, miniatureId, imageFullPath, "default.jpg");
+            const imageServiceId = config.host + path.join(config.basePath, miniatureId, imageBasePath);
+            const imageDownloadDir = path.join(outputFilePath, imageFullPath);
+            const imageDownloadFile = path.join(outputFilePath, imageFullPath, "default.jpg");
+            const imageInfoFile = path.join(outputFilePath, imageBasePath, "info.json");
 
             images.push({
                 "id": imageId,
@@ -161,8 +162,8 @@ async function main() {
         const canvasHeight = images[0]?.height || 1800;
         const canvasWidth = images[0]?.width || 1200;
 
-        const annotationPageId = basePath + "page/0/0";
-        const annotationPaintingId = basePath + "painting/0";
+        const annotationPageId = path.join(basePath, "page/0/0");
+        const annotationPaintingId = path.join(basePath, "painting/0");
 
         //Calculate physical scale - used for ruler.
         const physicalScale = +(data[fieldMap.dimensionsHeight] / canvasHeight).toFixed(4);
@@ -175,7 +176,7 @@ async function main() {
             const currentItem = micrographData[micrographId];
             if (!currentItem || !currentItem.hotspot) continue
             console.log("micrograph", j);
-            const annotationItemId = basePath + "annotation/tag/" + currentItem.id;
+            const annotationItemId = path.join(basePath, "annotation/tag/", currentItem.id);
             const targetCoords = `${currentItem[fieldMap.annotation.x]},${currentItem[fieldMap.annotation.y]},${currentItem[fieldMap.annotation.w]},${currentItem[fieldMap.annotation.h]}`;
             const target = canvasId + "#xywh=" + targetCoords;
             annotationItems.push({
@@ -250,7 +251,7 @@ async function main() {
             ],
         }
 
-        await fsPromises.writeFile(outputFilePath + "/manifest.json", JSON.stringify(manifest, null, "    "));
+        await fsPromises.writeFile(path.join(outputFilePath, "manifest.json"), JSON.stringify(manifest, null, "    "));
     }
 }
 
