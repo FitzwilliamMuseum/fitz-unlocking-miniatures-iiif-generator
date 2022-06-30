@@ -1,8 +1,8 @@
 export default {
     apiBase: "https://api.example.com/",
     host: "http://viewer.example.com/",
-    basePath: "iiif/",
-    accessToken: "ACCESS_TOKEN",
+    apiBase: "https://unlocking-miniatures.fitz.ms/",
+    basePath: "https://miniatures.fitz.ms/mirador-demo/iiif/",
     image: {
         download: true,
         publicPath: "images/",
@@ -41,7 +41,7 @@ export default {
         dimensionsHeight: "dimensions_unframed_height",
         dimensionsWidth: "dimensions_unframed_width",
         annotation: {
-            key: "micrographs",
+            key: "images_micrographs",
             description: "description",
             x: "coordinates_x",
             y: "coordinates_y",

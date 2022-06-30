@@ -18,21 +18,16 @@ async function fetchMiniature(id) {
 }
 
 async function fetchMicrographAll() {
-    const response = await fetch(apiBase + "items/miniatures_micrographs");
+    const response = await fetch(apiBase + "items/micrographs");
     return (await response.json()).data;
 }
 
 async function fetchMicrograph(id) {
-    const response = await fetch(apiBase + "items/miniatures_micrographs/" + id);
+    const response = await fetch(apiBase + "items/micrographs/" + id);
     return (await response.json()).data;
 }
 
 async function downloadImage(id, outputFilePath, imageOptions) {
-    const httpOptions = {
-        headers: {
-            "Authorization": "Bearer " + config.accessToken
-        }
-    }
     let path = apiBase + "assets/" + id + "?quality=90";
     if (imageOptions.width != undefined) {
         path += "&width=" + imageOptions.width;
@@ -40,17 +35,12 @@ async function downloadImage(id, outputFilePath, imageOptions) {
     if (imageOptions.height != undefined) {
         path += "&height=" + imageOptions.height;
     }
-    const response = await fetch(path, httpOptions);
+    const response = await fetch(path);
     return fsPromises.writeFile(outputFilePath, response.body);
 }
 
 async function fetchFileObject(id) {
-    const options = {
-        headers: {
-            "Authorization": "Bearer " + config.accessToken
-        }
-    }
-    const response = await fetch(apiBase + "files/" + id, options);
+    const response = await fetch(apiBase + "files/" + id);
     return (await response.json()).data;
 }
 
@@ -67,9 +57,9 @@ async function main() {
 
         const data = miniatureAll[i];
         const miniatureId = data[fieldMap.publicPath];
-        const basePath = config.host + path.join(config.basePath, miniatureId);
-        const manifestId = path.join(basePath, "manifest.json");
-        const canvasId = path.join(basePath, "canvas/0");
+        const basePath = config.basePath + miniatureId + "/";
+        const manifestId = basePath + "manifest.json";
+        const canvasId = basePath + "canvas/0";
 
         console.log(`miniature: ${i} ${miniatureId}`);
 
@@ -94,8 +84,8 @@ async function main() {
             const imageBasePath = config.image.publicPath + imageData[fieldMap.imagePublicPath].toUpperCase().replace(/\s/g, '_');
             const imageFullPath = imageBasePath + "/full/max/0";
 
-            const imageId = config.host + path.join(config.basePath, miniatureId, imageFullPath, "default.jpg");
-            const imageServiceId = config.host + path.join(config.basePath, miniatureId, imageBasePath);
+            const imageId = config.basePath + path.join(miniatureId, imageFullPath, "default.jpg");
+            const imageServiceId = config.basePath + path.join(miniatureId, imageBasePath);
             const imageInfoFile = path.join(outputFilePath, imageBasePath, "info.json");
 
             images.push({
@@ -177,15 +167,13 @@ async function main() {
 
                 await fsPromises.writeFile(imageInfoFile, JSON.stringify(imageInfo, null, "    "));
             }
-
-            break;
         }
 
         const canvasHeight = images[0]?.height || 1800;
         const canvasWidth = images[0]?.width || 1200;
 
-        const annotationPageId = path.join(basePath, "page/0/0");
-        const annotationPaintingId = path.join(basePath, "painting/0");
+        const annotationPageId = basePath + "page/0/0";
+        const annotationPaintingId = basePath + "painting/0";
 
         //Calculate physical scale - used for ruler.
         const physicalScale = +(data[fieldMap.dimensionsHeight] / canvasHeight).toFixed(4);
@@ -193,26 +181,28 @@ async function main() {
         //Build iiif annotation for each miniature annotation marked with 'hotspot'.
         //Including coordinates.
         const annotationItems = [];
-        for (let j = 0; j < data[fieldMap.annotation.key].length; j++) {
-            const micrographId = data[fieldMap.annotation.key][j];
-            const currentItem = micrographData[micrographId];
-            if (!currentItem || !currentItem.hotspot) continue
-            console.log("micrograph", j);
-            const annotationItemId = path.join(basePath, "annotation/tag/", currentItem.id);
-            const targetCoords = `${currentItem[fieldMap.annotation.x]},${currentItem[fieldMap.annotation.y]},${currentItem[fieldMap.annotation.w]},${currentItem[fieldMap.annotation.h]}`;
-            const target = canvasId + "#xywh=" + targetCoords;
-            annotationItems.push({
-                "id": annotationItemId,
-                "type": "Annotation",
-                "motivation": "commenting",
-                "body": {
-                    "type": "TextualBody",
-                    "value": currentItem[fieldMap.annotation.description],
-                    "language": "en",
-                    "format": "text/html"
-                },
-                "target": target
-            });
+        if (Array.isArray(data[fieldMap.annotation.key])) {
+            for (let j = 0; j < data[fieldMap.annotation.key].length; j++) {
+                const micrographId = data[fieldMap.annotation.key][j];
+                const currentItem = await fetchMicrograph(micrographId);
+                if (!currentItem || !currentItem.hotspot) continue
+                console.log("micrograph", j);
+                const annotationItemId = basePath + path.join("annotation/tag/", currentItem.id.toString());
+                const targetCoords = `${currentItem[fieldMap.annotation.x]},${currentItem[fieldMap.annotation.y]},${currentItem[fieldMap.annotation.w]},${currentItem[fieldMap.annotation.h]}`;
+                const target = canvasId + "#xywh=" + targetCoords;
+                annotationItems.push({
+                    "id": annotationItemId,
+                    "type": "Annotation",
+                    "motivation": "commenting",
+                    "body": {
+                        "type": "TextualBody",
+                        "value": currentItem[fieldMap.annotation.description],
+                        "language": "en",
+                        "format": "text/html"
+                    },
+                    "target": target
+                });
+            }
         }
 
         //Build iiif presentation manifest
