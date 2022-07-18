@@ -48,8 +48,7 @@ async function main() {
 
     const { fieldMap } = config;
 
-    //Download all migrographs and miniatures from their API listing
-    const micrographData = await fetchMicrographAll();
+    //Download all miniatures from their API listing
     const miniatureAll = await fetchMiniatureAll();
 
     //For each miniature
@@ -60,6 +59,8 @@ async function main() {
         const basePath = config.basePath + miniatureId + "/";
         const manifestId = basePath + "manifest.json";
         const canvasId = basePath + "canvas/0";
+
+        if (data[fieldMap.published] != "published") continue;
 
         console.log(`miniature: ${i} ${miniatureId}`);
 
@@ -81,35 +82,35 @@ async function main() {
             console.log("image", j);
             const imageData = await fetchFileObject(data[item.key]);
 
-            const imageBasePath = config.image.publicPath + imageData[fieldMap.imagePublicPath].toUpperCase().replace(/\s/g, '_');
-            const imageFullPath = imageBasePath + "/full/max/0";
-
-            const imageId = config.basePath + path.join(miniatureId, imageFullPath, "default.jpg");
-            const imageServiceId = config.basePath + path.join(miniatureId, imageBasePath);
-            const imageInfoFile = path.join(outputFilePath, imageBasePath, "info.json");
-
-            images.push({
-                "id": imageId,
-                "type": "Image",
-                "format": imageData.type,
-                "height": imageData.height,
-                "width": imageData.width,
-                "label": {
-                    "en": [
-                        item.label
-                    ]
-                },
-                "service": [
-                    {
-                        "id": imageServiceId,
-                        "type": "ImageService3",
-                        "profile": "level0"
-                    }
-                ]
-            });
-
             //Optionaly download image file and create iiif image info.json
-            if (config.image.download) {
+            if (config.imageDownload) {
+
+                const imageBasePath = config.image.publicPath + imageData[fieldMap.imagePublicPath].toUpperCase().replace(/\s/g, '_');
+                const imageFullPath = imageBasePath + "/full/max/0";
+
+                const imageId = config.basePath + path.join(miniatureId, imageFullPath, "default.jpg");
+                const imageServiceId = config.basePath + path.join(miniatureId, imageBasePath);
+                const imageInfoFile = path.join(outputFilePath, imageBasePath, "info.json");
+
+                images.push({
+                    "id": imageId,
+                    "type": "Image",
+                    "format": imageData.type,
+                    "height": imageData.height,
+                    "width": imageData.width,
+                    "label": {
+                        "en": [
+                            item.label
+                        ]
+                    },
+                    "service": [
+                        {
+                            "id": imageServiceId,
+                            "type": "ImageService3",
+                            "profile": "level0"
+                        }
+                    ]
+                });
 
                 let workingImageWidth = imageData.width;
                 let workingImageHeight = imageData.height;
@@ -167,6 +168,33 @@ async function main() {
 
                 await fsPromises.writeFile(imageInfoFile, JSON.stringify(imageInfo, null, "    "));
             }
+
+            if (config.imageAPI) {
+
+                const imageExtension = imageData.type == "image/tiff" ? "tif" : "jpg";
+                const imageAPIBase = config.imageAPI + imageData.filename_disk;
+                const imageId = imageAPIBase + "/full/max/0/default." + imageExtension;
+
+                images.push({
+                    "id": imageId,
+                    "type": "Image",
+                    "format": imageData.type,
+                    "height": imageData.height,
+                    "width": imageData.width,
+                    "label": {
+                        "en": [
+                            item.label
+                        ]
+                    },
+                    "service": [
+                        {
+                            "id": imageAPIBase,
+                            "type": "ImageService3",
+                            "profile": "level2"
+                        }
+                    ]
+                });
+            }
         }
 
         const canvasHeight = images[0]?.height || 1800;
@@ -184,19 +212,24 @@ async function main() {
         if (Array.isArray(data[fieldMap.annotation.key])) {
             for (let j = 0; j < data[fieldMap.annotation.key].length; j++) {
                 const micrographId = data[fieldMap.annotation.key][j];
+
                 const currentItem = await fetchMicrograph(micrographId);
                 if (!currentItem || !currentItem.hotspot) continue
                 console.log("micrograph", j);
+
                 const annotationItemId = basePath + path.join("annotation/tag/", currentItem.id.toString());
                 const targetCoords = `${currentItem[fieldMap.annotation.x]},${currentItem[fieldMap.annotation.y]},${currentItem[fieldMap.annotation.w]},${currentItem[fieldMap.annotation.h]}`;
                 const target = canvasId + "#xywh=" + targetCoords;
+                const micrographLink = config.micrographBasePath + path.join('object', data.id.toString()) + '#' + currentItem[fieldMap.annotation.fileName];
+                const value = `<div><p>${currentItem[fieldMap.annotation.description]}</p><a href=${micrographLink} target="__blank">Open micrograph</a></div>`;
+
                 annotationItems.push({
                     "id": annotationItemId,
                     "type": "Annotation",
                     "motivation": "commenting",
                     "body": {
                         "type": "TextualBody",
-                        "value": currentItem[fieldMap.annotation.description],
+                        "value": value,
                         "language": "en",
                         "format": "text/html"
                     },
@@ -264,8 +297,6 @@ async function main() {
         }
 
         await fsPromises.writeFile(path.join(outputFilePath, "manifest.json"), JSON.stringify(manifest, null, "    "));
-
-        break;
     }
 }
 
