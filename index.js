@@ -27,6 +27,11 @@ async function fetchMicrograph(id) {
     return (await response.json()).data;
 }
 
+async function fetchAllMaXrf() {
+    const response = await fetch(apiBase + "items/ma_xrf_scans");
+    return (await response.json()).data;
+}
+
 async function downloadImage(id, outputFilePath, imageOptions) {
     let path = apiBase + "assets/" + id + "?quality=90";
     if (imageOptions.width != undefined) {
@@ -48,8 +53,10 @@ async function main() {
 
     const { fieldMap } = config;
 
-    //Download all miniatures from their API listing
+    //Download all miniature ovjects from their API listing
     const miniatureAll = await fetchMiniatureAll();
+    //Download all MA XRF Scan objects from API listing
+    const maXrfAll = await fetchAllMaXrf();
 
     //For each miniature
     for (let i = 0; i < miniatureAll.length; i++) {
@@ -194,6 +201,43 @@ async function main() {
                         }
                     ]
                 });
+            }
+        }
+
+        //add MA-XRF Scan image
+        if (config.imageAPI && data[config.fieldMap.maXrf]) {
+            for (let j = 0; j < data[config.fieldMap.maXrf].length; j++) {
+                const foundScan = maXrfAll.find(s => s.id == data[config.fieldMap.maXrf][j]);
+                if (foundScan) {
+
+                    console.log("MA-XRF", j);
+                    const imageData = await fetchFileObject(foundScan.ma_xrf_scan);
+
+                    const imageExtension = imageData.type == "image/tiff" ? "tif" : "jpg";
+                    const imageAPIBase = config.imageAPI + imageData.filename_disk;
+                    const imageId = imageAPIBase + "/full/max/0/default." + imageExtension;
+                    const maXrfLabel = 'MA-XRF ' + foundScan.element_investigated;
+
+                    images.push({
+                        "id": imageId,
+                        "type": "Image",
+                        "format": imageData.type,
+                        "height": imageData.height,
+                        "width": imageData.width,
+                        "label": {
+                            "en": [
+                                maXrfLabel
+                            ]
+                        },
+                        "service": [
+                            {
+                                "id": imageAPIBase,
+                                "type": "ImageService3",
+                                "profile": "level2"
+                            }
+                        ]
+                    });
+                }
             }
         }
 
