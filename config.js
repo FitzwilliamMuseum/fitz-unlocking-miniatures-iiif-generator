@@ -1,15 +1,14 @@
 export default {
-    apiBase: "https://api.example.com/",
-    host: "http://viewer.example.com/",
     apiBase: "https://unlocking-miniatures.fitz.ms/",
-    basePath: "https://miniatures.fitz.ms/mirador-demo/iiif/",
-    image: {
-        download: true,
-        publicPath: "images/",
-        scale: false,
-        scaleMinWidth: 50,
-        scaleIncrement: 0.5,
-    },
+    basePath: "https://miniatures.fitz.ms/iiif/",
+    // imageDownload: {
+    //     publicPath: "images/",
+    //     scale: false,
+    //     scaleMinWidth: 50,
+    //     scaleIncrement: 0.5,
+    // },
+    imageAPI: "https://iiif.fitz.ms/iiif/3/",
+    micrographBasePath: "https://miniatures.fitz.ms/",
     dimensionsUnits: "mm",
     fieldMap: {
         publicPath: "accession_number",
@@ -38,17 +37,20 @@ export default {
                 "label": "X-ray"
             }
         ],
+        maXrf: "images_ma_xrf_scans",
         dimensionsHeight: "dimensions_unframed_height",
         dimensionsWidth: "dimensions_unframed_width",
         annotation: {
             key: "images_micrographs",
+            fileName: "file_name",
             description: "description",
             x: "coordinates_x",
             y: "coordinates_y",
             w: "coordinates_width",
             h: "coordinates_height"
-        }
+        },
+        published: "status"
     },
     attribution: "Fitzwilliam Museum",
-    license: "https://creativecommons.org/licenses/by/3.0/",
+    license: "https://creativecommons.org/licenses/by-nc-nd/4.0/",
 }
