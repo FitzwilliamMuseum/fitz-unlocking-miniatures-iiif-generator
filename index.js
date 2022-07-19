@@ -264,7 +264,7 @@ async function main() {
                 const annotationItemId = basePath + path.join("annotation/tag/", currentItem.id.toString());
                 const targetCoords = `${currentItem[fieldMap.annotation.x]},${currentItem[fieldMap.annotation.y]},${currentItem[fieldMap.annotation.w]},${currentItem[fieldMap.annotation.h]}`;
                 const target = canvasId + "#xywh=" + targetCoords;
-                const micrographLink = config.micrographBasePath + path.join('object', data.id.toString()) + '#' + currentItem[fieldMap.annotation.fileName];
+                const micrographLink = config.micrographBasePath + currentItem[fieldMap.annotation.uuid] + '?' + fieldMap.annotation.fullSizeURLParameters;
                 const value = `<div><p>${currentItem[fieldMap.annotation.description]}</p><a href=${micrographLink} target="__blank">Open micrograph</a></div>`;
 
                 annotationItems.push({

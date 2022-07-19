@@ -8,7 +8,7 @@ export default {
     //     scaleIncrement: 0.5,
     // },
     imageAPI: "https://iiif.fitz.ms/iiif/3/",
-    micrographBasePath: "https://miniatures.fitz.ms/",
+    micrographBasePath: "https://unlocking-miniatures.fitz.ms/assets/",
     dimensionsUnits: "mm",
     fieldMap: {
         publicPath: "accession_number",
@@ -47,7 +47,9 @@ export default {
             x: "coordinates_x",
             y: "coordinates_y",
             w: "coordinates_width",
-            h: "coordinates_height"
+            h: "coordinates_height",
+            uuid: "micrograph",
+            fullSizeURLParameters: "format=jpg"
         },
         published: "status"
     },
