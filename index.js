@@ -292,13 +292,24 @@ async function main() {
                     data[fieldMap.label]
                 ]
             },
-            "description": {
+            "summary": {
                 "en": [
                     ...fieldMap.description.map(item => data[item]).filter(item => item)
                 ]
             },
-            "attribution": config.attribution,
-            "license": config.license,
+            "requiredStatement": {
+                "label": {
+                    "en": [
+                        "Attribution"
+                    ]
+                },
+                "value": {
+                    "en": [
+                        config.attribution
+                    ]
+                }
+            },
+            "rights": config.license,
             "items": [
                 {
                     "id": canvasId,
@@ -323,9 +334,20 @@ async function main() {
                             ]
                         }
                     ],
-                    "service": {
-                        "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
-                        "profile": "http://iiif.io/api/annex/services/physdim",
+                    //This is an old definition of Physical Dimensions which fails validation
+                    //https://iiif.io/api/annex/services/#physical-dimensions
+                    // "service": {
+                    //     "@context": "http://iiif.io/api/annex/services/physdim/1/context.json",
+                    //     "profile": "http://iiif.io/api/annex/services/physdim",
+                    //     "physicalScale": physicalScale,
+                    //     "physicalUnits": config.dimensionsUnits
+                    // },
+                    //Using new extension style decleration described here:
+                    //https://github.com/IIIF/api/issues/1358
+                    //https://gist.github.com/workergnome/01a3c617b0f5a6ee8a2fb51fc44666bf
+                    "physicalDimensions": {
+                        "type": "PhysicalDimension",
+                        "profile": "http://iiif.io/api/annex/extensions/physdim",
                         "physicalScale": physicalScale,
                         "physicalUnits": config.dimensionsUnits
                     },

@@ -54,5 +54,5 @@ export default {
         published: "status"
     },
     attribution: "Fitzwilliam Museum",
-    license: "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    license: "http://creativecommons.org/licenses/by-nc-nd/4.0/",
 }
