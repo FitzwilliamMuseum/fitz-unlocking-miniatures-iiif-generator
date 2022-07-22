@@ -1,0 +1,179 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures.fitz.ms/iiif/FM 3865/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Richard Sackville, 3rd Earl of Dorset 1589-1624"
+        ]
+    },
+    "summary": {
+        "en": []
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Attribution"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures.fitz.ms/iiif/FM 3865/canvas/0",
+            "type": "Canvas",
+            "height": 4209,
+            "width": 3457,
+            "items": [
+                {
+                    "id": "https://miniatures.fitz.ms/iiif/FM 3865/page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3865/painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/339f4b69-4df3-4252-a7e8-61f8bb86db66.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 4209,
+                                        "width": 3457,
+                                        "label": {
+                                            "en": [
+                                                "Natural Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/339f4b69-4df3-4252-a7e8-61f8bb86db66.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/885420e4-98b9-4ed0-8caa-fe6be81b7b26.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 4209,
+                                        "width": 3457,
+                                        "label": {
+                                            "en": [
+                                                "Infrared"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/885420e4-98b9-4ed0-8caa-fe6be81b7b26.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/5716bfc2-33d3-4d6d-9605-0ee30811216b.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 4209,
+                                        "width": 3457,
+                                        "label": {
+                                            "en": [
+                                                "Ultraviolet"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/5716bfc2-33d3-4d6d-9605-0ee30811216b.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/93a12ac3-3b95-4ba2-b17f-2bc50420a322.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 4209,
+                                        "width": 3457,
+                                        "label": {
+                                            "en": [
+                                                "X-ray"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/93a12ac3-3b95-4ba2-b17f-2bc50420a322.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3865/canvas/0"
+                        }
+                    ]
+                }
+            ],
+            "physicalDimensions": {
+                "type": "PhysicalDimension",
+                "profile": "http://iiif.io/api/annex/extensions/physdim",
+                "physicalScale": 0.0097,
+                "physicalUnits": "mm"
+            },
+            "annotations": [
+                {
+                    "id": "https://miniatures.fitz.ms/iiif/FM 3865/page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3865/annotation/tag/39",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>right eye</p><a href=https://unlocking-miniatures.fitz.ms/assets/bb303156-89d5-45f8-8c6d-92b673ff96db?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3865/canvas/0#xywh=1413,1201,631,497"
+                        },
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3865/annotation/tag/47",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>beard</p><a href=https://unlocking-miniatures.fitz.ms/assets/d250b937-498f-4af3-be7f-f41d11bf7449?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3865/canvas/0#xywh=933,2256,1093,834"
+                        },
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3865/annotation/tag/48",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>collar on right side, raking</p><a href=https://unlocking-miniatures.fitz.ms/assets/eeeeff84-50f3-4fc4-b11c-d53750ae572e?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3865/canvas/0#xywh=1456,1685,1910,1404"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

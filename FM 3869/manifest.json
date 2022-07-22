@@ -1,0 +1,212 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures.fitz.ms/iiif/FM 3869/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Ludovick Stuart, 2nd Duke of Lennox and Duke of Richmond 1574-1624"
+        ]
+    },
+    "summary": {
+        "en": [
+            "Inscription on the verso written in a 19th century hand: 'Rt Devereux Earl of Essex / by Isaac Oliver'."
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Attribution"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures.fitz.ms/iiif/FM 3869/canvas/0",
+            "type": "Canvas",
+            "height": 4843,
+            "width": 3917,
+            "items": [
+                {
+                    "id": "https://miniatures.fitz.ms/iiif/FM 3869/page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3869/painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/777d27db-d0ef-4215-9432-3ee261973fb2.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 4843,
+                                        "width": 3917,
+                                        "label": {
+                                            "en": [
+                                                "Natural Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/777d27db-d0ef-4215-9432-3ee261973fb2.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/523597a9-d52b-4b1d-a997-5ef5d92ff7a8.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 4843,
+                                        "width": 3917,
+                                        "label": {
+                                            "en": [
+                                                "Raking Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/523597a9-d52b-4b1d-a997-5ef5d92ff7a8.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/c8137606-9f15-49cd-b4c1-bcc466c45b49.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 4843,
+                                        "width": 3917,
+                                        "label": {
+                                            "en": [
+                                                "Infrared"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/c8137606-9f15-49cd-b4c1-bcc466c45b49.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/e465f3fc-2106-47b3-b360-4fea78f8476f.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 4843,
+                                        "width": 3845,
+                                        "label": {
+                                            "en": [
+                                                "Ultraviolet"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/e465f3fc-2106-47b3-b360-4fea78f8476f.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/afd19041-193c-4fa8-9464-25e7adf54d67.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 4843,
+                                        "width": 3917,
+                                        "label": {
+                                            "en": [
+                                                "X-ray"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/afd19041-193c-4fa8-9464-25e7adf54d67.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3869/canvas/0"
+                        }
+                    ]
+                }
+            ],
+            "physicalDimensions": {
+                "type": "PhysicalDimension",
+                "profile": "http://iiif.io/api/annex/extensions/physdim",
+                "physicalScale": 0.0101,
+                "physicalUnits": "mm"
+            },
+            "annotations": [
+                {
+                    "id": "https://miniatures.fitz.ms/iiif/FM 3869/page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3869/annotation/tag/64",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>left eye</p><a href=https://unlocking-miniatures.fitz.ms/assets/65577044-63e4-48db-97da-384757166ab1?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3869/canvas/0#xywh=1278,1523,392,269"
+                        },
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3869/annotation/tag/69",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>top of head and background, raking</p><a href=https://unlocking-miniatures.fitz.ms/assets/cf45f956-31c1-491b-939d-ec49da78ee07?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3869/canvas/0#xywh=1058,122,1645,1307"
+                        },
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3869/annotation/tag/70",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>right shoulder and fabric detail, raking</p><a href=https://unlocking-miniatures.fitz.ms/assets/aa9223e2-4ac5-4d6a-80aa-ba6c334d29aa?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3869/canvas/0#xywh=1709,2585,1851,1214"
+                        },
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3869/annotation/tag/74",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>close up of right eye</p><a href=https://unlocking-miniatures.fitz.ms/assets/25b576ea-135b-4833-b70f-8c08b42c24a1?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3869/canvas/0#xywh=1826,1567,196,176"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

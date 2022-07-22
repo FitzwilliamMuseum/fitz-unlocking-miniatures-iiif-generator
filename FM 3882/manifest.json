@@ -1,0 +1,205 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures.fitz.ms/iiif/FM 3882/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Unknown Man"
+        ]
+    },
+    "summary": {
+        "en": [
+            "Inscription in gold left of the head reads 'Anno Domini 1588'.\nInscription in gold right of the head reads 'AE Suae 57'.\nInscription on the verso of the portrait reads '1588 Miniature'."
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Attribution"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures.fitz.ms/iiif/FM 3882/canvas/0",
+            "type": "Canvas",
+            "height": 4926,
+            "width": 4037,
+            "items": [
+                {
+                    "id": "https://miniatures.fitz.ms/iiif/FM 3882/page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3882/painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/2caecf78-1f6d-4e93-93e9-b8497b3111a1.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 4926,
+                                        "width": 4037,
+                                        "label": {
+                                            "en": [
+                                                "Natural Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/2caecf78-1f6d-4e93-93e9-b8497b3111a1.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/cd63d98c-5b02-4946-9877-877a6fb3b660.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 4926,
+                                        "width": 4037,
+                                        "label": {
+                                            "en": [
+                                                "Infrared"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/cd63d98c-5b02-4946-9877-877a6fb3b660.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/324a16b7-4143-4b34-a1b6-9917a215a999.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 4926,
+                                        "width": 4037,
+                                        "label": {
+                                            "en": [
+                                                "Ultraviolet"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/324a16b7-4143-4b34-a1b6-9917a215a999.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/44f4af03-39c7-4562-929f-9fe095443bc2.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 4926,
+                                        "width": 4037,
+                                        "label": {
+                                            "en": [
+                                                "X-ray"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/44f4af03-39c7-4562-929f-9fe095443bc2.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3882/canvas/0"
+                        }
+                    ]
+                }
+            ],
+            "physicalDimensions": {
+                "type": "PhysicalDimension",
+                "profile": "http://iiif.io/api/annex/extensions/physdim",
+                "physicalScale": 0.011,
+                "physicalUnits": "mm"
+            },
+            "annotations": [
+                {
+                    "id": "https://miniatures.fitz.ms/iiif/FM 3882/page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3882/annotation/tag/90",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>left collar and inscription</p><a href=https://unlocking-miniatures.fitz.ms/assets/fe2d6de4-e6fe-4d75-bf07-e95ef83cd93e?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3882/canvas/0#xywh=91,2357,1852,1226"
+                        },
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3882/annotation/tag/92",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>inscription on left</p><a href=https://unlocking-miniatures.fitz.ms/assets/2084cf43-dbb2-4ab5-8109-a95a4fd0f729?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3882/canvas/0#xywh=106,1105,1817,1322"
+                        },
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3882/annotation/tag/94",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>right side of lower face and inscription</p><a href=https://unlocking-miniatures.fitz.ms/assets/21604c17-672c-45c4-b2ff-b337ab33854a?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3882/canvas/0#xywh=2256,1918,1781,1302"
+                        },
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3882/annotation/tag/112",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>right side of face and inscription</p><a href=https://unlocking-miniatures.fitz.ms/assets/1e8d3670-2b3e-41fa-b7d1-7bf4ccfd6bed?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3882/canvas/0#xywh=2074,853,1751,1277"
+                        },
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3882/annotation/tag/117",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>left ear, raking</p><a href=https://unlocking-miniatures.fitz.ms/assets/6cc119f4-6386-4ba0-b708-ae8a69cdad47?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3882/canvas/0#xywh=964,1368,535,807"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

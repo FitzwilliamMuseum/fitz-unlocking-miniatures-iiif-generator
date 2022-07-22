@@ -1,0 +1,389 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures.fitz.ms/iiif/FM 3868/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Unknown Lady"
+        ]
+    },
+    "summary": {
+        "en": [
+            "Isaac Oliver's portrait of a fashionably attired unknown lady depicts a young, stylishly attired woman, with a black hat and a profusion of white lace and pearls. She has long been considered a ‘typical’ example of this artist's work.",
+            "The ultraviolet (UV) image of this work shows that numerous areas have been retouched. These include portions of her hat and black costume, which display a greenish fluorescence under UV illumination, indicative of the presence of modern pigments, such as zinc white (as confirmed by additional X-ray fluorescence [XRF] analysis). Extensive repainting can also be identified throughout the white passages of the costume.\n\nThe white overpainting appears to be covering dull grey (original) paint, whose muted colour must have been the reason for the extensive intervention. This grey pigment has been identified as calomel, which was probably white initially, but exposure to light or possibly alkali turned it grey, thus making necessary the extensive repainting."
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Attribution"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures.fitz.ms/iiif/FM 3868/canvas/0",
+            "type": "Canvas",
+            "height": 1571,
+            "width": 1273,
+            "items": [
+                {
+                    "id": "https://miniatures.fitz.ms/iiif/FM 3868/page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3868/painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/6761c34c-f4df-41bb-adba-0c38fbbb8ecb.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 1571,
+                                        "width": 1273,
+                                        "label": {
+                                            "en": [
+                                                "Natural Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/6761c34c-f4df-41bb-adba-0c38fbbb8ecb.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/bd94d024-a46e-46ec-998e-67f495946eb8.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 1571,
+                                        "width": 1273,
+                                        "label": {
+                                            "en": [
+                                                "Raking Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/bd94d024-a46e-46ec-998e-67f495946eb8.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/094b8688-8210-4543-a589-b2b6c3cfba9c.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 1571,
+                                        "width": 1273,
+                                        "label": {
+                                            "en": [
+                                                "Infrared"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/094b8688-8210-4543-a589-b2b6c3cfba9c.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/2229f722-d25c-4447-9a93-38f58a10cf5a.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 1571,
+                                        "width": 1273,
+                                        "label": {
+                                            "en": [
+                                                "Ultraviolet"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/2229f722-d25c-4447-9a93-38f58a10cf5a.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/a1b6c7bc-7a1a-4fe3-9b75-0628534081b0.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 1571,
+                                        "width": 1273,
+                                        "label": {
+                                            "en": [
+                                                "X-ray"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/a1b6c7bc-7a1a-4fe3-9b75-0628534081b0.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/0498a13d-6759-414e-8cd0-ee9a9d3248ab.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 1581,
+                                        "width": 1273,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Barium"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/0498a13d-6759-414e-8cd0-ee9a9d3248ab.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/36bf5a4a-cd8e-494d-b08d-e649b5466411.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 1581,
+                                        "width": 1273,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Calcium"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/36bf5a4a-cd8e-494d-b08d-e649b5466411.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/554e4f63-2c28-4cb7-b0e4-b60a11de4ea3.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 1581,
+                                        "width": 1273,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Copper"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/554e4f63-2c28-4cb7-b0e4-b60a11de4ea3.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/b663ce6a-276c-4eb5-86af-3c7db5ea0d19.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 1581,
+                                        "width": 1273,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Iron"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/b663ce6a-276c-4eb5-86af-3c7db5ea0d19.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/8eaec09e-6896-48a6-baaa-3fa4e33ed60c.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 1581,
+                                        "width": 1273,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Mercury"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/8eaec09e-6896-48a6-baaa-3fa4e33ed60c.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/f404abb3-5546-4406-840d-0c1cc29c59b9.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 1581,
+                                        "width": 1273,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Phosphorous"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/f404abb3-5546-4406-840d-0c1cc29c59b9.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/f9df5b00-844d-47eb-a8c2-8d8c2521901f.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 1581,
+                                        "width": 1273,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Lead"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/f9df5b00-844d-47eb-a8c2-8d8c2521901f.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/dfed8373-95f4-499e-87c8-bc9055bf0299.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 1581,
+                                        "width": 1273,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Zinc"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/dfed8373-95f4-499e-87c8-bc9055bf0299.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3868/canvas/0"
+                        }
+                    ]
+                }
+            ],
+            "physicalDimensions": {
+                "type": "PhysicalDimension",
+                "profile": "http://iiif.io/api/annex/extensions/physdim",
+                "physicalScale": 0.0331,
+                "physicalUnits": "mm"
+            },
+            "annotations": [
+                {
+                    "id": "https://miniatures.fitz.ms/iiif/FM 3868/page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3868/annotation/tag/9",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>hair and headdress on left side</p><a href=https://unlocking-miniatures.fitz.ms/assets/667c05d0-39a2-4093-bd4d-606ce1b9daaa?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3868/canvas/0#xywh=224,290,232,334"
+                        },
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3868/annotation/tag/10",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>hair and headdress on left side, raking</p><a href=https://unlocking-miniatures.fitz.ms/assets/4c30ac75-309c-475f-94a9-cd8012e2dea1?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3868/canvas/0#xywh=224,290,232,334"
+                        },
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3868/annotation/tag/11",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>right eye</p><a href=https://unlocking-miniatures.fitz.ms/assets/fed54bfe-25f1-408c-a63b-b6a1130cd315?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3868/canvas/0#xywh=544,587,103,62"
+                        },
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3868/annotation/tag/20",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>hat and background, raking</p><a href=https://unlocking-miniatures.fitz.ms/assets/4fdaa0bf-ed8d-42e2-849d-adc7d0ff2224?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3868/canvas/0#xywh=358,51,565,412"
+                        },
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3868/annotation/tag/22",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>necklace, raking</p><a href=https://unlocking-miniatures.fitz.ms/assets/23067055-e5f4-4420-80bf-ac4fdcd9f040?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3868/canvas/0#xywh=337,837,544,438"
+                        },
+                        {
+                            "id": "https://miniatures.fitz.ms/iiif/FM 3868/annotation/tag/23",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div><p>costume detail on chest</p><a href=https://unlocking-miniatures.fitz.ms/assets/bfef6bdf-e19d-4bf1-ac84-ce48dd8f5855?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures.fitz.ms/iiif/FM 3868/canvas/0#xywh=341,1136,574,404"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
