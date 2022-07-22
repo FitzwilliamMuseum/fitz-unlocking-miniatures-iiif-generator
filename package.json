@@ -1,8 +1,7 @@
 {
-  "name": "olamalu-iiif-generator",
+  "name": "fitz-unlocking-miniatures-iiif-generator",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
   "type": "module",
   "dependencies": {
     "node-fetch": "^3.2.6"

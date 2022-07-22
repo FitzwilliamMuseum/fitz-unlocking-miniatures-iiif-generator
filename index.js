@@ -72,7 +72,7 @@ async function main() {
         console.log(`miniature: ${i} ${miniatureId}`);
 
         //Create output directory for this miniature
-        const outputFilePath = "output/" + miniatureId;
+        const outputFilePath = path.join(config.outputDir, miniatureId);
         try {
             await fsPromises.mkdir(outputFilePath, { recursive: true });
         }

@@ -1,12 +1,15 @@
+# Unlocking Miniatures iiif generator
+
 Tool to generate https://iiif.io/api/presentation/3.0/ manifest from directus API.
+
+Tested with Node version v16.15.1
 
 ```
 npm install
-yarn install
 ```
 
 ```
 node index.js
 ```
 
-Directus `access_token` authentication required for files and assets endpoints. You can generate on in the directus admin web ui.
+Presentation API Validator https://presentation-validator.iiif.io/ https://github.com/IIIF/presentation-validator
