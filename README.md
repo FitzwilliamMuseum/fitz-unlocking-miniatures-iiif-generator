@@ -13,3 +13,6 @@ node index.js
 ```
 
 Presentation API Validator https://presentation-validator.iiif.io/ https://github.com/IIIF/presentation-validator
+
+- https://miniatures-iiif.fitzmuseum.cam.ac.uk/
+- https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM%203868/manifest.json
