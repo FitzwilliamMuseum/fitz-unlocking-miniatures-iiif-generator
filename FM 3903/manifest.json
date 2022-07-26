@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://miniatures.fitz.ms/iiif/FM 3903/manifest.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3903/manifest.json",
     "type": "Manifest",
     "label": {
         "en": [
@@ -27,17 +27,17 @@
     "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
     "items": [
         {
-            "id": "https://miniatures.fitz.ms/iiif/FM 3903/canvas/0",
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3903/canvas/0",
             "type": "Canvas",
             "height": 4922,
             "width": 3841,
             "items": [
                 {
-                    "id": "https://miniatures.fitz.ms/iiif/FM 3903/page/0/0",
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3903/page/0/0",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://miniatures.fitz.ms/iiif/FM 3903/painting/0",
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3903/painting/0",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
@@ -121,7 +121,7 @@
                                     }
                                 ]
                             },
-                            "target": "https://miniatures.fitz.ms/iiif/FM 3903/canvas/0"
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3903/canvas/0"
                         }
                     ]
                 }
@@ -134,7 +134,7 @@
             },
             "annotations": [
                 {
-                    "id": "https://miniatures.fitz.ms/iiif/FM 3903/page/0/0",
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3903/page/0/0",
                     "type": "AnnotationPage",
                     "items": []
                 }

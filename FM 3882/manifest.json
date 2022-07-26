@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://miniatures.fitz.ms/iiif/FM 3882/manifest.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/manifest.json",
     "type": "Manifest",
     "label": {
         "en": [
@@ -27,17 +27,17 @@
     "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
     "items": [
         {
-            "id": "https://miniatures.fitz.ms/iiif/FM 3882/canvas/0",
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/canvas/0",
             "type": "Canvas",
             "height": 4926,
             "width": 4037,
             "items": [
                 {
-                    "id": "https://miniatures.fitz.ms/iiif/FM 3882/page/0/0",
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/page/0/0",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://miniatures.fitz.ms/iiif/FM 3882/painting/0",
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/painting/0",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
@@ -121,7 +121,7 @@
                                     }
                                 ]
                             },
-                            "target": "https://miniatures.fitz.ms/iiif/FM 3882/canvas/0"
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/canvas/0"
                         }
                     ]
                 }
@@ -134,11 +134,11 @@
             },
             "annotations": [
                 {
-                    "id": "https://miniatures.fitz.ms/iiif/FM 3882/page/0/0",
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/page/0/0",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://miniatures.fitz.ms/iiif/FM 3882/annotation/tag/90",
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/annotation/tag/90",
                             "type": "Annotation",
                             "motivation": "commenting",
                             "body": {
@@ -147,10 +147,10 @@
                                 "language": "en",
                                 "format": "text/html"
                             },
-                            "target": "https://miniatures.fitz.ms/iiif/FM 3882/canvas/0#xywh=91,2357,1852,1226"
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/canvas/0#xywh=91,2357,1852,1226"
                         },
                         {
-                            "id": "https://miniatures.fitz.ms/iiif/FM 3882/annotation/tag/92",
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/annotation/tag/92",
                             "type": "Annotation",
                             "motivation": "commenting",
                             "body": {
@@ -159,10 +159,10 @@
                                 "language": "en",
                                 "format": "text/html"
                             },
-                            "target": "https://miniatures.fitz.ms/iiif/FM 3882/canvas/0#xywh=106,1105,1817,1322"
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/canvas/0#xywh=106,1105,1817,1322"
                         },
                         {
-                            "id": "https://miniatures.fitz.ms/iiif/FM 3882/annotation/tag/94",
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/annotation/tag/94",
                             "type": "Annotation",
                             "motivation": "commenting",
                             "body": {
@@ -171,10 +171,10 @@
                                 "language": "en",
                                 "format": "text/html"
                             },
-                            "target": "https://miniatures.fitz.ms/iiif/FM 3882/canvas/0#xywh=2256,1918,1781,1302"
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/canvas/0#xywh=2256,1918,1781,1302"
                         },
                         {
-                            "id": "https://miniatures.fitz.ms/iiif/FM 3882/annotation/tag/112",
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/annotation/tag/112",
                             "type": "Annotation",
                             "motivation": "commenting",
                             "body": {
@@ -183,10 +183,10 @@
                                 "language": "en",
                                 "format": "text/html"
                             },
-                            "target": "https://miniatures.fitz.ms/iiif/FM 3882/canvas/0#xywh=2074,853,1751,1277"
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/canvas/0#xywh=2074,853,1751,1277"
                         },
                         {
-                            "id": "https://miniatures.fitz.ms/iiif/FM 3882/annotation/tag/117",
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/annotation/tag/117",
                             "type": "Annotation",
                             "motivation": "commenting",
                             "body": {
@@ -195,7 +195,7 @@
                                 "language": "en",
                                 "format": "text/html"
                             },
-                            "target": "https://miniatures.fitz.ms/iiif/FM 3882/canvas/0#xywh=964,1368,535,807"
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/canvas/0#xywh=964,1368,535,807"
                         }
                     ]
                 }
