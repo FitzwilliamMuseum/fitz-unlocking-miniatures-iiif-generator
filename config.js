@@ -1,6 +1,6 @@
 export default {
     apiBase: "https://unlocking-miniatures.fitz.ms/",
-    basePath: "https://miniatures.fitz.ms/iiif/",
+    basePath: "https://miniatures-iiif.fitzmuseum.cam.ac.uk/",
     // imageDownload: {
     //     publicPath: "images/",
     //     scale: false,
