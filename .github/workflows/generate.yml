@@ -1,5 +1,10 @@
 name: Generate iiif manifests
-on: workflow_dispatch
+on:
+  push:
+    branches:    
+      - main
+  schedule:
+    - cron:  '2 1 * * *'
 jobs:
   generate:
     runs-on: ubuntu-latest
