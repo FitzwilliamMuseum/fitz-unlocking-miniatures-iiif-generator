@@ -53,7 +53,7 @@ export default {
         },
         published: "status"
     },
-    attribution: "Fitzwilliam Museum",
+    collection: "Fitzwilliam Museum",
     license: "http://creativecommons.org/licenses/by-nc-nd/4.0/",
     outputDir: "dist"
 }

@@ -300,12 +300,12 @@ async function main() {
             "requiredStatement": {
                 "label": {
                     "en": [
-                        "Attribution"
+                        "Collection"
                     ]
                 },
                 "value": {
                     "en": [
-                        config.attribution
+                        config.collection
                     ]
                 }
             },

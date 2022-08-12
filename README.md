@@ -16,3 +16,4 @@ Presentation API Validator https://presentation-validator.iiif.io/ https://githu
 
 - https://miniatures-iiif.fitzmuseum.cam.ac.uk/
 - https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM%203868/manifest.json
+- https://github.com/FitzwilliamMuseum/fitz-unlocking-miniatures-iiif-generator
