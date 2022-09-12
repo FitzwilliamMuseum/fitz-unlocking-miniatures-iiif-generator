@@ -30,7 +30,7 @@
         {
             "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3868/canvas/0",
             "type": "Canvas",
-            "height": 1571,
+            "height": 1548,
             "width": 1273,
             "items": [
                 {
@@ -45,10 +45,10 @@
                                 "type": "Choice",
                                 "items": [
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/6761c34c-f4df-41bb-adba-0c38fbbb8ecb.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/cf159e7a-785d-4790-9c7c-a1bbef29fe27.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
-                                        "height": 1571,
+                                        "height": 1548,
                                         "width": 1273,
                                         "label": {
                                             "en": [
@@ -57,17 +57,17 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/6761c34c-f4df-41bb-adba-0c38fbbb8ecb.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/cf159e7a-785d-4790-9c7c-a1bbef29fe27.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/bd94d024-a46e-46ec-998e-67f495946eb8.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/e5791fd5-a85a-4af0-b524-a5ac1b39ee66.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
-                                        "height": 1571,
+                                        "height": 1548,
                                         "width": 1273,
                                         "label": {
                                             "en": [
@@ -76,17 +76,17 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/bd94d024-a46e-46ec-998e-67f495946eb8.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/e5791fd5-a85a-4af0-b524-a5ac1b39ee66.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/094b8688-8210-4543-a589-b2b6c3cfba9c.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/32a26c21-6574-49c5-874b-96145ab0f83f.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
-                                        "height": 1571,
+                                        "height": 1548,
                                         "width": 1273,
                                         "label": {
                                             "en": [
@@ -95,17 +95,17 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/094b8688-8210-4543-a589-b2b6c3cfba9c.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/32a26c21-6574-49c5-874b-96145ab0f83f.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/2229f722-d25c-4447-9a93-38f58a10cf5a.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/e9d2c052-e5c5-4223-8861-4c3297025e19.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
-                                        "height": 1571,
+                                        "height": 1548,
                                         "width": 1273,
                                         "label": {
                                             "en": [
@@ -114,17 +114,17 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/2229f722-d25c-4447-9a93-38f58a10cf5a.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/e9d2c052-e5c5-4223-8861-4c3297025e19.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/a1b6c7bc-7a1a-4fe3-9b75-0628534081b0.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/52850690-a62d-485d-8d0c-15b05a957713.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
-                                        "height": 1571,
+                                        "height": 1548,
                                         "width": 1273,
                                         "label": {
                                             "en": [
@@ -133,7 +133,7 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/a1b6c7bc-7a1a-4fe3-9b75-0628534081b0.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/52850690-a62d-485d-8d0c-15b05a957713.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
@@ -301,7 +301,7 @@
             "physicalDimensions": {
                 "type": "PhysicalDimension",
                 "profile": "http://iiif.io/api/annex/extensions/physdim",
-                "physicalScale": 0.0331,
+                "physicalScale": 0.0336,
                 "physicalUnits": "mm"
             },
             "annotations": [
