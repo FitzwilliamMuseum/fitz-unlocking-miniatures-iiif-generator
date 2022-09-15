@@ -45,7 +45,7 @@
                                 "type": "Choice",
                                 "items": [
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/cf159e7a-785d-4790-9c7c-a1bbef29fe27.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/9bfc0a0b-31df-4eea-a7ec-e26283703e37.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
                                         "height": 1548,
@@ -57,7 +57,7 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/cf159e7a-785d-4790-9c7c-a1bbef29fe27.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/9bfc0a0b-31df-4eea-a7ec-e26283703e37.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
