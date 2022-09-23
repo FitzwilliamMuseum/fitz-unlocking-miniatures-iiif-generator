@@ -9,7 +9,7 @@
     },
     "summary": {
         "en": [
-            "The UV image shows many retouched areas on the ruff, pearls, eyes, and hair: they appear of a bright greenish colour due to the use of zinc white. The orange UV colour is associated to lead white.\nThe IR image shows a retouched area on the background, which appears grey in comparison to the darker background."
+            "The UV image shows many retouched areas on the ruff, pearls, eyes, and hair: they appear of a bright greenish colour due to the use of zinc white. The orange UV colour is associated to lead white.\n\nThe IR image shows a retouched area on the background, which appears grey in comparison to the darker background."
         ]
     },
     "requiredStatement": {
@@ -148,7 +148,7 @@
             "physicalDimensions": {
                 "type": "PhysicalDimension",
                 "profile": "http://iiif.io/api/annex/extensions/physdim",
-                "physicalScale": 0,
+                "physicalScale": 0.0169,
                 "physicalUnits": "mm"
             },
             "annotations": [

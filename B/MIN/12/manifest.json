@@ -9,7 +9,8 @@
     },
     "summary": {
         "en": [
-            "Inscription in gold, 'Anno Domini 1587, aetatis suae 20'\nUV image: retouching evident on the flesh tone, white shirt and ruff, appearing of greenish colour under UV light and associated to the use of zinc white.  \nThe palette identified is consistent with the materials employed by Isaac Oliver."
+            "This miniature is one of the earliest known attributable to Isaac Oliver.",
+            "Inscription in gold, 'Anno Domini 1587, aetatis suae 20'\nUV image: retouching evident on the flesh tone, white shirt and ruff, appearing of greenish colour under UV light and associated with the use of zinc white.  \nThe palette identified is consistent with the materials employed by Isaac Oliver."
         ]
     },
     "requiredStatement": {
@@ -148,7 +149,7 @@
             "physicalDimensions": {
                 "type": "PhysicalDimension",
                 "profile": "http://iiif.io/api/annex/extensions/physdim",
-                "physicalScale": 0,
+                "physicalScale": 0.0242,
                 "physicalUnits": "mm"
             },
             "annotations": [

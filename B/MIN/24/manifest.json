@@ -9,7 +9,8 @@
     },
     "summary": {
         "en": [
-            "The palette identified is consistent with the materials and technique employed by Oliver.\n'Infelix Spectator' written in gold on the background. \nThe UV image shows retouched areas on the ruff: they appear greenish due to the use of zinc white and in contrast to the orange UV fluorescence colour given by lead white, employed by the artist. Parts of the background, especially around the edges, are also retouched, as they appear greenish or blue in comparison to the background, which does not give any UV fluorescence colour and is therefore dark."
+            "A particularly fine example of Isaac Oliver's work.\n'Infelix Spectator' written in gold on the background.",
+            "The palette identified is consistent with the materials and techniques employed by Oliver.\n\nThe UV image shows retouched areas on the ruff: they appear greenish due to the use of zinc white and in contrast to the pale orange UV fluorescence colour given by lead white, employed by the artist. Parts of the background, especially around the edges, are also retouched, as they appear greenish or blue in comparison to the azurite background, which quenches the UV light."
         ]
     },
     "requiredStatement": {
@@ -148,7 +149,7 @@
             "physicalDimensions": {
                 "type": "PhysicalDimension",
                 "profile": "http://iiif.io/api/annex/extensions/physdim",
-                "physicalScale": 0,
+                "physicalScale": 0.017,
                 "physicalUnits": "mm"
             },
             "annotations": [
