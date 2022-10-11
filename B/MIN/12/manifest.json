@@ -1,14 +1,17 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29377/manifest.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B/MIN/12/manifest.json",
     "type": "Manifest",
     "label": {
         "en": [
-            "Unknown Man, formerly called Edward, Baron Herbert of Cherbury"
+            "A lady (b. c. 1567)"
         ]
     },
     "summary": {
-        "en": []
+        "en": [
+            "This miniature is one of the earliest known attributable to Isaac Oliver.",
+            "Inscription in gold, 'Anno Domini 1587, aetatis suae 20'\nUV image: retouching evident on the flesh tone, white shirt and ruff, appearing of greenish colour under UV light and associated with the use of zinc white.  \nThe palette identified is consistent with the materials employed by Isaac Oliver."
+        ]
     },
     "requiredStatement": {
         "label": {
@@ -25,28 +28,28 @@
     "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
     "items": [
         {
-            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29377/canvas/0",
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B/MIN/12/canvas/0",
             "type": "Canvas",
-            "height": 3679,
-            "width": 2991,
+            "height": 2248,
+            "width": 1914,
             "items": [
                 {
-                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29377/page/0/0",
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B/MIN/12/page/0/0",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29377/painting/0",
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B/MIN/12/painting/0",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
                                 "type": "Choice",
                                 "items": [
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/24bbf7a0-18ed-4fe0-bdd7-cbd4a49d15ab.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/6ffba9ae-fedf-4c52-b9cb-06b7a3ac67ae.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
-                                        "height": 3679,
-                                        "width": 2991,
+                                        "height": 2248,
+                                        "width": 1914,
                                         "label": {
                                             "en": [
                                                 "Natural Light"
@@ -54,18 +57,18 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/24bbf7a0-18ed-4fe0-bdd7-cbd4a49d15ab.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/6ffba9ae-fedf-4c52-b9cb-06b7a3ac67ae.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/bab83a52-0a2d-4c76-ad13-6a13b2399d20.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/e751aec4-61bb-4c3a-81ac-0d4e94af7948.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
-                                        "height": 3679,
-                                        "width": 2991,
+                                        "height": 2248,
+                                        "width": 1914,
                                         "label": {
                                             "en": [
                                                 "Raking Light"
@@ -73,18 +76,18 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/bab83a52-0a2d-4c76-ad13-6a13b2399d20.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/e751aec4-61bb-4c3a-81ac-0d4e94af7948.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/3a1051d0-a7f2-461b-a639-9de864123802.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/bb25d58b-b2eb-49d0-aa92-4670a54acc11.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
-                                        "height": 3679,
-                                        "width": 2991,
+                                        "height": 2248,
+                                        "width": 1914,
                                         "label": {
                                             "en": [
                                                 "Infrared"
@@ -92,18 +95,18 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/3a1051d0-a7f2-461b-a639-9de864123802.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/bb25d58b-b2eb-49d0-aa92-4670a54acc11.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/3ec86e1e-2706-428d-ba11-6c10e04baf07.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/0bb9a06b-278a-4ba7-9650-1355881904c8.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
-                                        "height": 3679,
-                                        "width": 2991,
+                                        "height": 2248,
+                                        "width": 1914,
                                         "label": {
                                             "en": [
                                                 "Ultraviolet"
@@ -111,7 +114,26 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/3ec86e1e-2706-428d-ba11-6c10e04baf07.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/0bb9a06b-278a-4ba7-9650-1355881904c8.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/a259383b-8734-4dd3-966e-29b48a396b5d.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 2248,
+                                        "width": 1914,
+                                        "label": {
+                                            "en": [
+                                                "X-ray"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/a259383b-8734-4dd3-966e-29b48a396b5d.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
@@ -119,7 +141,7 @@
                                     }
                                 ]
                             },
-                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29377/canvas/0"
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B/MIN/12/canvas/0"
                         }
                     ]
                 }
@@ -127,12 +149,12 @@
             "physicalDimensions": {
                 "type": "PhysicalDimension",
                 "profile": "http://iiif.io/api/annex/extensions/physdim",
-                "physicalScale": 0.0139,
+                "physicalScale": 0.0242,
                 "physicalUnits": "mm"
             },
             "annotations": [
                 {
-                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29377/page/0/0",
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B/MIN/12/page/0/0",
                     "type": "AnnotationPage",
                     "items": []
                 }
