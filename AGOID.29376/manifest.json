@@ -9,7 +9,7 @@
     },
     "summary": {
         "en": [
-            "UV image: loss of colours are evident in the lower part of the miniature, which appears white as the parchment and does not show the orange UV colour typical of lead white, used for the dress. Other retouched areas are evident on the background, at the top and right side.\nThe calcium and lead MA-XRF maps show a possible change in the length of the hair."
+            "UV image: a loss of colour is evident in the lower part of the miniature, which appears bright white under UV light, possibly due to the fluorescence of the parchment support. An orange UV colour is instead typical of lead white, and used for the dress. Other retouched areas are evident on the background, at the top and right side.\nThe calcium and lead MA-XRF maps show a possible change in the length of the hair."
         ]
     },
     "requiredStatement": {
@@ -114,6 +114,234 @@
                                         "service": [
                                             {
                                                 "id": "https://iiif.fitz.ms/iiif/3/569a8cae-6c40-4962-bc6d-363534538552.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/14b452ec-c567-4fa2-9861-3e16ff820abe.tiff/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3895,
+                                        "width": 3053,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Silver-LA_r"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/14b452ec-c567-4fa2-9861-3e16ff820abe.tiff",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/7f13171d-f56f-4df8-8857-8af09af62895.tiff/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3895,
+                                        "width": 3053,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Gold-LA_r"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/7f13171d-f56f-4df8-8857-8af09af62895.tiff",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/88344a8c-be22-4883-9c28-b0dc53cd6d32.tiff/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3895,
+                                        "width": 3053,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Calcium-KA_r"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/88344a8c-be22-4883-9c28-b0dc53cd6d32.tiff",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/514f6628-4925-438e-bd87-a1260ec0714b.tiff/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3895,
+                                        "width": 3053,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Cobalt-KA_Cr_r"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/514f6628-4925-438e-bd87-a1260ec0714b.tiff",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/75629768-152c-46fc-8ede-92576ccaee46.tiff/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3895,
+                                        "width": 3053,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Copper-KA_r"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/75629768-152c-46fc-8ede-92576ccaee46.tiff",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/c3333086-135a-4bdd-9d5c-35a972ef5659.tiff/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3895,
+                                        "width": 3053,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Iron-KA_Cr_r"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/c3333086-135a-4bdd-9d5c-35a972ef5659.tiff",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/faa32974-f910-47a4-98cf-df4b13fe6fab.tiff/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3895,
+                                        "width": 3053,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Mercury-LA_Cr_3x3_r"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/faa32974-f910-47a4-98cf-df4b13fe6fab.tiff",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/e879a9ae-7ab3-4d80-bdf0-155e3b15e03c.tiff/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3895,
+                                        "width": 3053,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Potassium-KA_Ag_3x3_r"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/e879a9ae-7ab3-4d80-bdf0-155e3b15e03c.tiff",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/332d401e-d5d9-4a7a-81a6-5f5bbd187440.tiff/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3895,
+                                        "width": 3053,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Manganese-KA_Cr_r"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/332d401e-d5d9-4a7a-81a6-5f5bbd187440.tiff",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/7d1d3ab4-c0e8-4b5e-a9f1-e30c2523a195.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3895,
+                                        "width": 3053,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Lead-LA_r"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/7d1d3ab4-c0e8-4b5e-a9f1-e30c2523a195.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/2ec38a38-f97a-47a0-aa15-11b2f8f2ef66.tiff/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3895,
+                                        "width": 3053,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Lead-MA_r"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/2ec38a38-f97a-47a0-aa15-11b2f8f2ef66.tiff",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/64883ac4-e49d-43e1-a6d5-ee994c00792a.tiff/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3895,
+                                        "width": 3053,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Tin-LA_3x3_r"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/64883ac4-e49d-43e1-a6d5-ee994c00792a.tiff",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
