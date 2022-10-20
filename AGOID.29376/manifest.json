@@ -127,7 +127,7 @@
                                         "width": 3053,
                                         "label": {
                                             "en": [
-                                                "MA-XRF Silver-LA_r"
+                                                "MA-XRF Silver (Ag)"
                                             ]
                                         },
                                         "service": [
@@ -146,7 +146,7 @@
                                         "width": 3053,
                                         "label": {
                                             "en": [
-                                                "MA-XRF Gold-LA_r"
+                                                "MA-XRF Gold (Au)"
                                             ]
                                         },
                                         "service": [
@@ -165,7 +165,7 @@
                                         "width": 3053,
                                         "label": {
                                             "en": [
-                                                "MA-XRF Calcium-KA_r"
+                                                "MA-XRF Calcium (Ca)"
                                             ]
                                         },
                                         "service": [
@@ -184,7 +184,7 @@
                                         "width": 3053,
                                         "label": {
                                             "en": [
-                                                "MA-XRF Cobalt-KA_Cr_r"
+                                                "MA-XRF Cobalt (Co)"
                                             ]
                                         },
                                         "service": [
@@ -203,7 +203,7 @@
                                         "width": 3053,
                                         "label": {
                                             "en": [
-                                                "MA-XRF Copper-KA_r"
+                                                "MA-XRF Copper (Cu)"
                                             ]
                                         },
                                         "service": [
@@ -222,7 +222,7 @@
                                         "width": 3053,
                                         "label": {
                                             "en": [
-                                                "MA-XRF Iron-KA_Cr_r"
+                                                "MA-XRF Iron (Fe)"
                                             ]
                                         },
                                         "service": [
@@ -241,7 +241,7 @@
                                         "width": 3053,
                                         "label": {
                                             "en": [
-                                                "MA-XRF Mercury-LA_Cr_3x3_r"
+                                                "MA-XRF Mercury (Hg)"
                                             ]
                                         },
                                         "service": [
@@ -260,7 +260,7 @@
                                         "width": 3053,
                                         "label": {
                                             "en": [
-                                                "MA-XRF Potassium-KA_Ag_3x3_r"
+                                                "MA-XRF Potassium (K)"
                                             ]
                                         },
                                         "service": [
@@ -279,7 +279,7 @@
                                         "width": 3053,
                                         "label": {
                                             "en": [
-                                                "MA-XRF Manganese-KA_Cr_r"
+                                                "MA-XRF Manganese (Mn)"
                                             ]
                                         },
                                         "service": [
@@ -298,7 +298,7 @@
                                         "width": 3053,
                                         "label": {
                                             "en": [
-                                                "MA-XRF Lead-LA_r"
+                                                "MA-XRF Lead (Pb-LA)"
                                             ]
                                         },
                                         "service": [
@@ -317,7 +317,7 @@
                                         "width": 3053,
                                         "label": {
                                             "en": [
-                                                "MA-XRF Lead-MA_r"
+                                                "MA-XRF Lead (Pb-MA)"
                                             ]
                                         },
                                         "service": [
@@ -336,7 +336,7 @@
                                         "width": 3053,
                                         "label": {
                                             "en": [
-                                                "MA-XRF Tin-LA_3x3_r"
+                                                "MA-XRF Tin (Sn)"
                                             ]
                                         },
                                         "service": [
