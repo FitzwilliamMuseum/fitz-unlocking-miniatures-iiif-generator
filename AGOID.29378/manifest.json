@@ -44,7 +44,7 @@
                                 "type": "Choice",
                                 "items": [
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/9b53b6e1-eb5a-418f-b24f-7d8d2f19392f.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/752bfe3a-6dd2-481f-b3a6-210d29b439fd.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
                                         "height": 2209,
@@ -56,14 +56,14 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/9b53b6e1-eb5a-418f-b24f-7d8d2f19392f.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/752bfe3a-6dd2-481f-b3a6-210d29b439fd.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/3675fda4-0ed7-457a-96a2-d633ae4799f7.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/4eb83db9-0a65-4b8a-aeeb-66a862a3f550.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
                                         "height": 2209,
@@ -75,14 +75,14 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/3675fda4-0ed7-457a-96a2-d633ae4799f7.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/4eb83db9-0a65-4b8a-aeeb-66a862a3f550.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/9d527a4f-0bbf-4d03-ab10-1deaa2ea4e80.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/941d3ef5-6467-4ce3-a426-1fcf925bf3fc.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
                                         "height": 2209,
@@ -94,14 +94,14 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/9d527a4f-0bbf-4d03-ab10-1deaa2ea4e80.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/941d3ef5-6467-4ce3-a426-1fcf925bf3fc.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/98c7de1f-60c4-40fd-aba6-ab49679c7f87.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/b1ac502e-fcfe-4bd6-9cf6-377a553e4297.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
                                         "height": 2209,
@@ -113,18 +113,18 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/98c7de1f-60c4-40fd-aba6-ab49679c7f87.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/b1ac502e-fcfe-4bd6-9cf6-377a553e4297.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/8153133c-2ef7-436a-bf3e-10080b9dc770.tif/full/max/0/default.tif",
+                                        "id": "https://iiif.fitz.ms/iiif/3/dd16225a-45b4-4b76-b603-a385f8651c58.jpg/full/max/0/default.jpg",
                                         "type": "Image",
-                                        "format": "image/tiff",
-                                        "height": 402,
-                                        "width": 323,
+                                        "format": "image/jpeg",
+                                        "height": 2209,
+                                        "width": 1802,
                                         "label": {
                                             "en": [
                                                 "X-ray"
@@ -132,7 +132,7 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/8153133c-2ef7-436a-bf3e-10080b9dc770.tif",
+                                                "id": "https://iiif.fitz.ms/iiif/3/dd16225a-45b4-4b76-b603-a385f8651c58.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }

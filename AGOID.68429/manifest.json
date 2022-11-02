@@ -1,16 +1,14 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/manifest.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.68429/manifest.json",
     "type": "Manifest",
     "label": {
         "en": [
-            "Unknown Woman, formerly called Anne, Lady Hunsdon (c. 1529–1607)"
+            "Portrait of a Lady"
         ]
     },
     "summary": {
-        "en": [
-            "The UV image shows that the miniature is in a good state of conservation. The pale orange UV fluorescence colour (for instance evident on the ruff) is due to the presence of lead white.\n \nThe playing card was not accessible for the analysis, but the mercury (Hg) MA-XRF map shows the presence of one heart, likely made of vermilion."
-        ]
+        "en": []
     },
     "requiredStatement": {
         "label": {
@@ -27,28 +25,28 @@
     "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
     "items": [
         {
-            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0",
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.68429/canvas/0",
             "type": "Canvas",
-            "height": 2914,
-            "width": 2375,
+            "height": 4165,
+            "width": 3086,
             "items": [
                 {
-                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/page/0/0",
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.68429/page/0/0",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/painting/0",
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.68429/painting/0",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
                                 "type": "Choice",
                                 "items": [
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/68fffff0-57f8-45f2-9e2d-9bd6568e1c36.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/34e71c28-8c32-471b-9abc-725d4f207a15.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
-                                        "height": 2914,
-                                        "width": 2375,
+                                        "height": 4165,
+                                        "width": 3086,
                                         "label": {
                                             "en": [
                                                 "Natural Light"
@@ -56,18 +54,18 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/68fffff0-57f8-45f2-9e2d-9bd6568e1c36.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/34e71c28-8c32-471b-9abc-725d4f207a15.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/88f69385-d9bb-4afa-afb2-27e174c95e0c.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/9949e30a-1d09-4e7c-a9ed-24aa7e10e507.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
-                                        "height": 2914,
-                                        "width": 2375,
+                                        "height": 4045,
+                                        "width": 2981,
                                         "label": {
                                             "en": [
                                                 "Raking Light"
@@ -75,18 +73,18 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/88f69385-d9bb-4afa-afb2-27e174c95e0c.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/9949e30a-1d09-4e7c-a9ed-24aa7e10e507.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/807cc275-1e91-48e1-933c-541312b7b29a.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/4f98aaba-6bd1-4ad4-a41b-e445d6d3fb40.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
-                                        "height": 2914,
-                                        "width": 2375,
+                                        "height": 4045,
+                                        "width": 2981,
                                         "label": {
                                             "en": [
                                                 "Infrared"
@@ -94,18 +92,18 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/807cc275-1e91-48e1-933c-541312b7b29a.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/4f98aaba-6bd1-4ad4-a41b-e445d6d3fb40.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/e291a5e8-6490-4494-97b8-f2f9e75ad664.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/d5750358-bf0c-41ce-bc67-4ce50b5dcacd.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
-                                        "height": 2914,
-                                        "width": 2375,
+                                        "height": 4045,
+                                        "width": 2981,
                                         "label": {
                                             "en": [
                                                 "Ultraviolet"
@@ -113,18 +111,18 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/e291a5e8-6490-4494-97b8-f2f9e75ad664.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/d5750358-bf0c-41ce-bc67-4ce50b5dcacd.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/5dd62ca2-6045-40c1-a35f-10fd0ea60f4d.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/60cda8c1-2cb6-47e7-9d6e-831f1ad097c7.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
-                                        "height": 2914,
-                                        "width": 2375,
+                                        "height": 1553,
+                                        "width": 1215,
                                         "label": {
                                             "en": [
                                                 "X-ray"
@@ -132,7 +130,7 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/5dd62ca2-6045-40c1-a35f-10fd0ea60f4d.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/60cda8c1-2cb6-47e7-9d6e-831f1ad097c7.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
@@ -140,7 +138,7 @@
                                     }
                                 ]
                             },
-                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0"
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.68429/canvas/0"
                         }
                     ]
                 }
@@ -148,12 +146,12 @@
             "physicalDimensions": {
                 "type": "PhysicalDimension",
                 "profile": "http://iiif.io/api/annex/extensions/physdim",
-                "physicalScale": 0.0196,
+                "physicalScale": 0.0156,
                 "physicalUnits": "mm"
             },
             "annotations": [
                 {
-                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/page/0/0",
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.68429/page/0/0",
                     "type": "AnnotationPage",
                     "items": []
                 }
