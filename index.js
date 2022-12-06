@@ -208,7 +208,7 @@ async function main() {
         if (config.imageAPI && data[config.fieldMap.maXrf]) {
             for (let j = 0; j < data[config.fieldMap.maXrf].length; j++) {
                 const foundScan = maXrfAll.find(s => s.id == data[config.fieldMap.maXrf][j]);
-                if (foundScan) {
+                if (foundScan && foundScan.ma_xrf_scan) {
 
                     console.log("MA-XRF", j);
                     const imageData = await fetchFileObject(foundScan.ma_xrf_scan);
