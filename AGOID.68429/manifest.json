@@ -118,11 +118,11 @@
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/60cda8c1-2cb6-47e7-9d6e-831f1ad097c7.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/b5ae8538-dcd7-44e8-b65c-3fae1e704107.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
-                                        "height": 1553,
-                                        "width": 1215,
+                                        "height": 4165,
+                                        "width": 3086,
                                         "label": {
                                             "en": [
                                                 "X-ray"
@@ -130,7 +130,7 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/60cda8c1-2cb6-47e7-9d6e-831f1ad097c7.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/b5ae8538-dcd7-44e8-b65c-3fae1e704107.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }

@@ -118,6 +118,25 @@
                                                 "profile": "level2"
                                             }
                                         ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/47f39cc9-1859-42fb-b25a-c2b9214c0664.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 3073,
+                                        "width": 3098,
+                                        "label": {
+                                            "en": [
+                                                "X-ray"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/47f39cc9-1859-42fb-b25a-c2b9214c0664.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
                                     }
                                 ]
                             },
