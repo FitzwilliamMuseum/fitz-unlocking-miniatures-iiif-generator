@@ -1,53 +1,8 @@
-import fetch from 'node-fetch';
 import { promises as fsPromises } from 'fs';
 import config from './config.js';
 import path from 'path';
-
-const { apiBase } = config;
-
-//Directus APi endpoints
-
-async function fetchMiniatureAll() {
-    const response = await fetch(apiBase + "items/miniatures");
-    return (await response.json()).data;
-}
-
-async function fetchMiniature(id) {
-    const response = await fetch(apiBase + "items/miniatures/" + id);
-    return (await response.json()).data;
-}
-
-async function fetchMicrographAll() {
-    const response = await fetch(apiBase + "items/micrographs");
-    return (await response.json()).data;
-}
-
-async function fetchMicrograph(id) {
-    const response = await fetch(apiBase + "items/micrographs/" + id);
-    return (await response.json()).data;
-}
-
-async function fetchAllMaXrf() {
-    const response = await fetch(apiBase + "items/ma_xrf_scans");
-    return (await response.json()).data;
-}
-
-async function downloadImage(id, outputFilePath, imageOptions) {
-    let path = apiBase + "assets/" + id + "?quality=90";
-    if (imageOptions.width != undefined) {
-        path += "&width=" + imageOptions.width;
-    }
-    if (imageOptions.height != undefined) {
-        path += "&height=" + imageOptions.height;
-    }
-    const response = await fetch(path);
-    return fsPromises.writeFile(outputFilePath, response.body);
-}
-
-async function fetchFileObject(id) {
-    const response = await fetch(apiBase + "files/" + id);
-    return (await response.json()).data;
-}
+import { fetchMiniatureAll, fetchMicrograph, fetchAllMaXrf, fetchFileObject, downloadImage } from './directus.js';
+import micrographBuildManifest from './micrograph.js';
 
 async function main() {
 
@@ -58,11 +13,14 @@ async function main() {
     //Download all MA XRF Scan objects from API listing
     const maXrfAll = await fetchAllMaXrf();
 
+    const urlSafeRegex = /[^a-zA-Z0-9_. ]/g;
+
     //For each miniature
     for (let i = 0; i < miniatureAll.length; i++) {
 
         const data = miniatureAll[i];
-        const miniatureId = data[fieldMap.publicPath];
+        const miniatureId = data[fieldMap.publicPath].replace(urlSafeRegex, '-');
+
         const basePath = config.basePath + miniatureId + "/";
         const manifestId = basePath + "manifest.json";
         const canvasId = basePath + "canvas/0";
@@ -255,6 +213,7 @@ async function main() {
         const annotationItems = [];
         if (Array.isArray(data[fieldMap.annotation.key])) {
             for (let j = 0; j < data[fieldMap.annotation.key].length; j++) {
+
                 const micrographId = data[fieldMap.annotation.key][j];
 
                 const currentItem = await fetchMicrograph(micrographId);
@@ -264,8 +223,21 @@ async function main() {
                 const annotationItemId = basePath + path.join("annotation/tag/", currentItem.id.toString());
                 const targetCoords = `${currentItem[fieldMap.annotation.x]},${currentItem[fieldMap.annotation.y]},${currentItem[fieldMap.annotation.w]},${currentItem[fieldMap.annotation.h]}`;
                 const target = canvasId + "#xywh=" + targetCoords;
-                const micrographLink = config.micrographBasePath + currentItem[fieldMap.annotation.uuid] + '?' + fieldMap.annotation.fullSizeURLParameters;
-                const value = `<div><p>${currentItem[fieldMap.annotation.description]}</p><a href=${micrographLink} target="__blank">Open micrograph</a></div>`;
+
+                const micrographManifestId = `${config.basePath}${miniatureId}/micrograph/${micrographId}/manifest.json`;
+                const micrographManifestUrl = encodeURI(micrographManifestId);
+                const micrographDownloadUrl = config.micrographBasePath + currentItem[fieldMap.annotation.uuid] + '?' + fieldMap.annotation.fullSizeURLParameters;
+                const micrographThumbnailUrl = config.micrographBasePath + currentItem[fieldMap.annotation.uuid] + '?' + fieldMap.annotation.thumbnailURLParameters;
+                const micrographLabel = currentItem[fieldMap.annotation.description];
+
+                //https://github.com/ProjectMirador/mirador/blob/master/src/config/settings.js#L239
+                //https://github.com/ProjectMirador/mirador/blob/master/src/lib/htmlRules.js
+                const value = `<div>
+                <p>${micrographLabel}</p>
+                <a href=${micrographManifestUrl} alt="Open in Mirador"><img src="${micrographThumbnailUrl}" alt="${micrographLabel}"/></a>
+                <a href=${micrographManifestUrl} target="__blank">Open iiif Manifest URL</a>
+                <a href=${micrographDownloadUrl} target="__blank">Download image</a>
+                </div>`;
 
                 annotationItems.push({
                     "id": annotationItemId,
@@ -279,6 +251,14 @@ async function main() {
                     },
                     "target": target
                 });
+
+                if (config.micrographBuildManifest) {
+                    await micrographBuildManifest(
+                        currentItem,
+                        miniatureId,
+                        data[fieldMap.label] + ' - ' + micrographLabel
+                    );
+                }
             }
         }
 

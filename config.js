@@ -49,11 +49,13 @@ export default {
             w: "coordinates_width",
             h: "coordinates_height",
             uuid: "micrograph",
-            fullSizeURLParameters: "format=jpg"
+            thumbnailURLParameters: "format=jpg&width=300&withoutEnlargement&quality=80",
+            fullSizeURLParameters: "format=jpg&width=1920&withoutEnlargement&quality=80"
         },
         published: "status"
     },
     collection: "Fitzwilliam Museum",
     license: "http://creativecommons.org/licenses/by-nc-nd/4.0/",
-    outputDir: "dist"
+    outputDir: "dist",
+    micrographBuildManifest: true
 }
