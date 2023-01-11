@@ -44,7 +44,7 @@
                                 "type": "Choice",
                                 "items": [
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/9f7d8be9-9611-4161-8e30-68976d8336fc.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/0c5b98a7-413a-4ea0-98c2-707e88e09816.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
                                         "height": 3073,
@@ -56,14 +56,14 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/9f7d8be9-9611-4161-8e30-68976d8336fc.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/0c5b98a7-413a-4ea0-98c2-707e88e09816.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/5a176e3c-7c97-4085-948c-875db13ddf82.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/237cf314-ba8c-4c27-b3d6-6a7aec49ef35.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
                                         "height": 3073,
@@ -75,14 +75,14 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/5a176e3c-7c97-4085-948c-875db13ddf82.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/237cf314-ba8c-4c27-b3d6-6a7aec49ef35.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/311de01c-4e7a-411f-9b02-fec82a7d9de5.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/f5814e5c-309c-4ba9-838d-57b5da90cf9f.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
                                         "height": 3073,
@@ -94,14 +94,14 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/311de01c-4e7a-411f-9b02-fec82a7d9de5.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/f5814e5c-309c-4ba9-838d-57b5da90cf9f.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/67cabc77-0787-48d5-a91d-50bda3f40ab1.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/244636f6-68f5-4bad-a020-01ff589a7d4f.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
                                         "height": 3073,
@@ -113,14 +113,14 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/67cabc77-0787-48d5-a91d-50bda3f40ab1.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/244636f6-68f5-4bad-a020-01ff589a7d4f.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/47f39cc9-1859-42fb-b25a-c2b9214c0664.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/db583795-8f2e-4dbe-afc0-06565560ffcd.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
                                         "height": 3073,
@@ -132,18 +132,18 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/47f39cc9-1859-42fb-b25a-c2b9214c0664.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/db583795-8f2e-4dbe-afc0-06565560ffcd.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/a09d29f5-df7f-4b39-9350-b7864eb199df.tif/full/max/0/default.tif",
+                                        "id": "https://iiif.fitz.ms/iiif/3/10b32bda-4a71-45b2-b716-49bf7a9c58a8.tif/full/max/0/default.tif",
                                         "type": "Image",
                                         "format": "image/tiff",
-                                        "height": 470,
-                                        "width": 474,
+                                        "height": 3073,
+                                        "width": 3098,
                                         "label": {
                                             "en": [
                                                 "MA-XRF Silver (Ag)"
@@ -151,18 +151,18 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/a09d29f5-df7f-4b39-9350-b7864eb199df.tif",
+                                                "id": "https://iiif.fitz.ms/iiif/3/10b32bda-4a71-45b2-b716-49bf7a9c58a8.tif",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/99797258-4c09-45c9-a60f-af6316480006.tif/full/max/0/default.tif",
+                                        "id": "https://iiif.fitz.ms/iiif/3/db509fa0-f7bd-4673-8f3d-217fd615b60d.tif/full/max/0/default.tif",
                                         "type": "Image",
                                         "format": "image/tiff",
-                                        "height": 470,
-                                        "width": 474,
+                                        "height": 3073,
+                                        "width": 3098,
                                         "label": {
                                             "en": [
                                                 "MA-XRF Arsenic (As)"
@@ -170,18 +170,18 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/99797258-4c09-45c9-a60f-af6316480006.tif",
+                                                "id": "https://iiif.fitz.ms/iiif/3/db509fa0-f7bd-4673-8f3d-217fd615b60d.tif",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/29552d77-8c49-487a-bde2-46c456bf1c09.tif/full/max/0/default.tif",
+                                        "id": "https://iiif.fitz.ms/iiif/3/9bfab008-3f67-4d37-8655-a6f31f61d22a.tif/full/max/0/default.tif",
                                         "type": "Image",
                                         "format": "image/tiff",
-                                        "height": 470,
-                                        "width": 474,
+                                        "height": 3073,
+                                        "width": 3098,
                                         "label": {
                                             "en": [
                                                 "MA-XRF Gold (Au)"
@@ -189,18 +189,18 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/29552d77-8c49-487a-bde2-46c456bf1c09.tif",
+                                                "id": "https://iiif.fitz.ms/iiif/3/9bfab008-3f67-4d37-8655-a6f31f61d22a.tif",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/fa769c89-0ed1-4562-950f-9f3e5a8f556c.tif/full/max/0/default.tif",
+                                        "id": "https://iiif.fitz.ms/iiif/3/6800f70e-41b6-4f0d-b055-1a32fb5112f7.tif/full/max/0/default.tif",
                                         "type": "Image",
                                         "format": "image/tiff",
-                                        "height": 470,
-                                        "width": 474,
+                                        "height": 3073,
+                                        "width": 3098,
                                         "label": {
                                             "en": [
                                                 "MA-XRF Barium (Ba)"
@@ -208,18 +208,18 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/fa769c89-0ed1-4562-950f-9f3e5a8f556c.tif",
+                                                "id": "https://iiif.fitz.ms/iiif/3/6800f70e-41b6-4f0d-b055-1a32fb5112f7.tif",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/7b628a30-9263-42f8-a10b-5400f1c39be3.tif/full/max/0/default.tif",
+                                        "id": "https://iiif.fitz.ms/iiif/3/e733f4f1-0dea-4c74-aa59-e1803c78bc95.tif/full/max/0/default.tif",
                                         "type": "Image",
                                         "format": "image/tiff",
-                                        "height": 470,
-                                        "width": 474,
+                                        "height": 3073,
+                                        "width": 3098,
                                         "label": {
                                             "en": [
                                                 "MA-XRF Calcium (Ca)"
@@ -227,18 +227,18 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/7b628a30-9263-42f8-a10b-5400f1c39be3.tif",
+                                                "id": "https://iiif.fitz.ms/iiif/3/e733f4f1-0dea-4c74-aa59-e1803c78bc95.tif",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/8f3ced8b-79a6-4704-9fd0-d409141eed58.tif/full/max/0/default.tif",
+                                        "id": "https://iiif.fitz.ms/iiif/3/fba7d9dd-8c75-4158-b472-20bdcb68b812.tif/full/max/0/default.tif",
                                         "type": "Image",
                                         "format": "image/tiff",
-                                        "height": 470,
-                                        "width": 474,
+                                        "height": 3073,
+                                        "width": 3098,
                                         "label": {
                                             "en": [
                                                 "MA-XRF Copper (Cu)"
@@ -246,7 +246,7 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/8f3ced8b-79a6-4704-9fd0-d409141eed58.tif",
+                                                "id": "https://iiif.fitz.ms/iiif/3/fba7d9dd-8c75-4158-b472-20bdcb68b812.tif",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }

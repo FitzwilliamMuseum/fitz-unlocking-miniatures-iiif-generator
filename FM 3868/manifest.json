@@ -315,7 +315,7 @@
                             "motivation": "commenting",
                             "body": {
                                 "type": "TextualBody",
-                                "value": "<div><p>hair and headdress on left side</p><a href=https://unlocking-miniatures.fitz.ms/assets/667c05d0-39a2-4093-bd4d-606ce1b9daaa?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "value": "<div>\n                <p>hair and headdress on left side</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM%203868/micrograph/9/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/667c05d0-39a2-4093-bd4d-606ce1b9daaa?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"hair and headdress on left side\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM%203868/micrograph/9/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/667c05d0-39a2-4093-bd4d-606ce1b9daaa?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
                                 "language": "en",
                                 "format": "text/html"
                             },
@@ -327,7 +327,7 @@
                             "motivation": "commenting",
                             "body": {
                                 "type": "TextualBody",
-                                "value": "<div><p>hair and headdress on left side, raking</p><a href=https://unlocking-miniatures.fitz.ms/assets/4c30ac75-309c-475f-94a9-cd8012e2dea1?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "value": "<div>\n                <p>hair and headdress on left side, raking</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM%203868/micrograph/10/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/4c30ac75-309c-475f-94a9-cd8012e2dea1?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"hair and headdress on left side, raking\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM%203868/micrograph/10/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/4c30ac75-309c-475f-94a9-cd8012e2dea1?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
                                 "language": "en",
                                 "format": "text/html"
                             },
@@ -339,7 +339,7 @@
                             "motivation": "commenting",
                             "body": {
                                 "type": "TextualBody",
-                                "value": "<div><p>right eye</p><a href=https://unlocking-miniatures.fitz.ms/assets/fed54bfe-25f1-408c-a63b-b6a1130cd315?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "value": "<div>\n                <p>right eye</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM%203868/micrograph/11/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/fed54bfe-25f1-408c-a63b-b6a1130cd315?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"right eye\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM%203868/micrograph/11/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/fed54bfe-25f1-408c-a63b-b6a1130cd315?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
                                 "language": "en",
                                 "format": "text/html"
                             },
@@ -351,7 +351,7 @@
                             "motivation": "commenting",
                             "body": {
                                 "type": "TextualBody",
-                                "value": "<div><p>hat and background, raking</p><a href=https://unlocking-miniatures.fitz.ms/assets/4fdaa0bf-ed8d-42e2-849d-adc7d0ff2224?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "value": "<div>\n                <p>hat and background, raking</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM%203868/micrograph/20/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/4fdaa0bf-ed8d-42e2-849d-adc7d0ff2224?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"hat and background, raking\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM%203868/micrograph/20/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/4fdaa0bf-ed8d-42e2-849d-adc7d0ff2224?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
                                 "language": "en",
                                 "format": "text/html"
                             },
@@ -363,7 +363,7 @@
                             "motivation": "commenting",
                             "body": {
                                 "type": "TextualBody",
-                                "value": "<div><p>necklace, raking</p><a href=https://unlocking-miniatures.fitz.ms/assets/23067055-e5f4-4420-80bf-ac4fdcd9f040?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "value": "<div>\n                <p>necklace, raking</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM%203868/micrograph/22/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/23067055-e5f4-4420-80bf-ac4fdcd9f040?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"necklace, raking\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM%203868/micrograph/22/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/23067055-e5f4-4420-80bf-ac4fdcd9f040?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
                                 "language": "en",
                                 "format": "text/html"
                             },
@@ -375,7 +375,7 @@
                             "motivation": "commenting",
                             "body": {
                                 "type": "TextualBody",
-                                "value": "<div><p>costume detail on chest</p><a href=https://unlocking-miniatures.fitz.ms/assets/bfef6bdf-e19d-4bf1-ac84-ce48dd8f5855?format=jpg target=\"__blank\">Open micrograph</a></div>",
+                                "value": "<div>\n                <p>costume detail on chest</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM%203868/micrograph/23/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/bfef6bdf-e19d-4bf1-ac84-ce48dd8f5855?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"costume detail on chest\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM%203868/micrograph/23/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/bfef6bdf-e19d-4bf1-ac84-ce48dd8f5855?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
                                 "language": "en",
                                 "format": "text/html"
                             },

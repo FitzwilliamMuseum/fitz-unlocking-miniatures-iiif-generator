@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3902/micrograph/151/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Unknown Lady - right eye"
+        ]
+    },
+    "summary": {
+        "en": [
+            "right eye"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3902/micrograph/151/canvas/0",
+            "type": "Canvas",
+            "height": 1920,
+            "width": 2560,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3902/micrograph/151page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3902/micrograph/151painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/51a054af-db39-4522-88d2-da3fa19e16a0.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 1920,
+                                        "width": 2560,
+                                        "label": {
+                                            "en": [
+                                                "right eye"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/51a054af-db39-4522-88d2-da3fa19e16a0.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3902/micrograph/151/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3865/micrograph/39/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Richard Sackville, 3rd Earl of Dorset 1589-1624 - right eye"
+        ]
+    },
+    "summary": {
+        "en": [
+            "right eye"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3865/micrograph/39/canvas/0",
+            "type": "Canvas",
+            "height": 1920,
+            "width": 2560,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3865/micrograph/39page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3865/micrograph/39painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/bb303156-89d5-45f8-8c6d-92b673ff96db.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 1920,
+                                        "width": 2560,
+                                        "label": {
+                                            "en": [
+                                                "right eye"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/bb303156-89d5-45f8-8c6d-92b673ff96db.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3865/micrograph/39/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

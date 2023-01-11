@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3869/micrograph/70/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Ludovick Stuart, 2nd Duke of Lennox and Duke of Richmond 1574-1624 - right shoulder and fabric detail, raking"
+        ]
+    },
+    "summary": {
+        "en": [
+            "right shoulder and fabric detail, raking"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3869/micrograph/70/canvas/0",
+            "type": "Canvas",
+            "height": 1920,
+            "width": 2560,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3869/micrograph/70page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3869/micrograph/70painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/aa9223e2-4ac5-4d6a-80aa-ba6c334d29aa.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 1920,
+                                        "width": 2560,
+                                        "label": {
+                                            "en": [
+                                                "right shoulder and fabric detail, raking"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/aa9223e2-4ac5-4d6a-80aa-ba6c334d29aa.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3869/micrograph/70/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

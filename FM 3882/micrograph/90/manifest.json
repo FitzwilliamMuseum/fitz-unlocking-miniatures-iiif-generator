@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/micrograph/90/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Unknown Man - left collar and inscription"
+        ]
+    },
+    "summary": {
+        "en": [
+            "left collar and inscription"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/micrograph/90/canvas/0",
+            "type": "Canvas",
+            "height": 1920,
+            "width": 2560,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/micrograph/90page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/micrograph/90painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/fe2d6de4-e6fe-4d75-bf07-e95ef83cd93e.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 1920,
+                                        "width": 2560,
+                                        "label": {
+                                            "en": [
+                                                "left collar and inscription"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/fe2d6de4-e6fe-4d75-bf07-e95ef83cd93e.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/micrograph/90/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

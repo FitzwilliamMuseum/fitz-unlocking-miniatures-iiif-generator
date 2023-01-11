@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3869/micrograph/69/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Ludovick Stuart, 2nd Duke of Lennox and Duke of Richmond 1574-1624 - top of head and background, raking"
+        ]
+    },
+    "summary": {
+        "en": [
+            "top of head and background, raking"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3869/micrograph/69/canvas/0",
+            "type": "Canvas",
+            "height": 1920,
+            "width": 2560,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3869/micrograph/69page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3869/micrograph/69painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/cf45f956-31c1-491b-939d-ec49da78ee07.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 1920,
+                                        "width": 2560,
+                                        "label": {
+                                            "en": [
+                                                "top of head and background, raking"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/cf45f956-31c1-491b-939d-ec49da78ee07.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3869/micrograph/69/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
