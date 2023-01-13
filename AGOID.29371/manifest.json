@@ -139,7 +139,7 @@
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/10b32bda-4a71-45b2-b716-49bf7a9c58a8.tif/full/max/0/default.tif",
+                                        "id": "https://iiif.fitz.ms/iiif/3/71c59945-7e51-405e-84a8-2462482e139e.tif/full/max/0/default.tif",
                                         "type": "Image",
                                         "format": "image/tiff",
                                         "height": 3073,
@@ -151,14 +151,14 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/10b32bda-4a71-45b2-b716-49bf7a9c58a8.tif",
+                                                "id": "https://iiif.fitz.ms/iiif/3/71c59945-7e51-405e-84a8-2462482e139e.tif",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/db509fa0-f7bd-4673-8f3d-217fd615b60d.tif/full/max/0/default.tif",
+                                        "id": "https://iiif.fitz.ms/iiif/3/353ba2f1-45f5-4bee-a6bb-4185e6c64693.tif/full/max/0/default.tif",
                                         "type": "Image",
                                         "format": "image/tiff",
                                         "height": 3073,
@@ -170,7 +170,7 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/db509fa0-f7bd-4673-8f3d-217fd615b60d.tif",
+                                                "id": "https://iiif.fitz.ms/iiif/3/353ba2f1-45f5-4bee-a6bb-4185e6c64693.tif",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
