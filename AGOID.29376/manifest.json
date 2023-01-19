@@ -29,8 +29,8 @@
         {
             "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29376/canvas/0",
             "type": "Canvas",
-            "height": 3895,
-            "width": 3053,
+            "height": 570,
+            "width": 441,
             "items": [
                 {
                     "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29376/page/0/0",
@@ -43,101 +43,6 @@
                             "body": {
                                 "type": "Choice",
                                 "items": [
-                                    {
-                                        "id": "https://iiif.fitz.ms/iiif/3/f62f07ee-2d27-493d-a29a-d028c5965557.jpg/full/max/0/default.jpg",
-                                        "type": "Image",
-                                        "format": "image/jpeg",
-                                        "height": 3895,
-                                        "width": 3053,
-                                        "label": {
-                                            "en": [
-                                                "Natural Light"
-                                            ]
-                                        },
-                                        "service": [
-                                            {
-                                                "id": "https://iiif.fitz.ms/iiif/3/f62f07ee-2d27-493d-a29a-d028c5965557.jpg",
-                                                "type": "ImageService3",
-                                                "profile": "level2"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "https://iiif.fitz.ms/iiif/3/2814dbf4-53b8-4d2c-9b0f-bb1693f71ba7.jpg/full/max/0/default.jpg",
-                                        "type": "Image",
-                                        "format": "image/jpeg",
-                                        "height": 3895,
-                                        "width": 3053,
-                                        "label": {
-                                            "en": [
-                                                "Raking Light"
-                                            ]
-                                        },
-                                        "service": [
-                                            {
-                                                "id": "https://iiif.fitz.ms/iiif/3/2814dbf4-53b8-4d2c-9b0f-bb1693f71ba7.jpg",
-                                                "type": "ImageService3",
-                                                "profile": "level2"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "https://iiif.fitz.ms/iiif/3/0a2f949c-f000-4f1e-8c21-fa4dfdb0e82d.jpg/full/max/0/default.jpg",
-                                        "type": "Image",
-                                        "format": "image/jpeg",
-                                        "height": 3895,
-                                        "width": 3053,
-                                        "label": {
-                                            "en": [
-                                                "Infrared"
-                                            ]
-                                        },
-                                        "service": [
-                                            {
-                                                "id": "https://iiif.fitz.ms/iiif/3/0a2f949c-f000-4f1e-8c21-fa4dfdb0e82d.jpg",
-                                                "type": "ImageService3",
-                                                "profile": "level2"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "https://iiif.fitz.ms/iiif/3/76a6c67e-d58d-4a9e-a549-dd9ccdc37362.jpg/full/max/0/default.jpg",
-                                        "type": "Image",
-                                        "format": "image/jpeg",
-                                        "height": 3895,
-                                        "width": 3053,
-                                        "label": {
-                                            "en": [
-                                                "Ultraviolet"
-                                            ]
-                                        },
-                                        "service": [
-                                            {
-                                                "id": "https://iiif.fitz.ms/iiif/3/76a6c67e-d58d-4a9e-a549-dd9ccdc37362.jpg",
-                                                "type": "ImageService3",
-                                                "profile": "level2"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "https://iiif.fitz.ms/iiif/3/b7bf65f4-fc2b-441b-9360-6bbe61c98c90.jpg/full/max/0/default.jpg",
-                                        "type": "Image",
-                                        "format": "image/jpeg",
-                                        "height": 3763,
-                                        "width": 2857,
-                                        "label": {
-                                            "en": [
-                                                "X-ray"
-                                            ]
-                                        },
-                                        "service": [
-                                            {
-                                                "id": "https://iiif.fitz.ms/iiif/3/b7bf65f4-fc2b-441b-9360-6bbe61c98c90.jpg",
-                                                "type": "ImageService3",
-                                                "profile": "level2"
-                                            }
-                                        ]
-                                    },
                                     {
                                         "id": "https://iiif.fitz.ms/iiif/3/4faaa8d6-aebd-4ca6-9b29-710d6be9d09f.tif/full/max/0/default.tif",
                                         "type": "Image",
@@ -376,7 +281,7 @@
             "physicalDimensions": {
                 "type": "PhysicalDimension",
                 "profile": "http://iiif.io/api/annex/extensions/physdim",
-                "physicalScale": 0.0139,
+                "physicalScale": 0.0947,
                 "physicalUnits": "mm"
             },
             "annotations": [
