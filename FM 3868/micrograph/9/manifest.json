@@ -29,8 +29,8 @@
         {
             "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3868/micrograph/9/canvas/0",
             "type": "Canvas",
-            "height": 1920,
-            "width": 2560,
+            "height": 2560,
+            "width": 1920,
             "items": [
                 {
                     "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3868/micrograph/9page/0/0",
@@ -44,11 +44,11 @@
                                 "type": "Choice",
                                 "items": [
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/667c05d0-39a2-4093-bd4d-606ce1b9daaa.tif/full/max/0/default.tif",
+                                        "id": "https://iiif.fitz.ms/iiif/3/1b1c5104-6a49-49e7-8822-af73dd3169e8.tif/full/max/0/default.tif",
                                         "type": "Image",
                                         "format": "image/tiff",
-                                        "height": 1920,
-                                        "width": 2560,
+                                        "height": 2560,
+                                        "width": 1920,
                                         "label": {
                                             "en": [
                                                 "hair and headdress on left side"
@@ -56,7 +56,7 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/667c05d0-39a2-4093-bd4d-606ce1b9daaa.tif",
+                                                "id": "https://iiif.fitz.ms/iiif/3/1b1c5104-6a49-49e7-8822-af73dd3169e8.tif",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }

@@ -29,8 +29,8 @@
         {
             "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/micrograph/117/canvas/0",
             "type": "Canvas",
-            "height": 1920,
-            "width": 2560,
+            "height": 2560,
+            "width": 1920,
             "items": [
                 {
                     "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3882/micrograph/117page/0/0",
@@ -44,11 +44,11 @@
                                 "type": "Choice",
                                 "items": [
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/6cc119f4-6386-4ba0-b708-ae8a69cdad47.tif/full/max/0/default.tif",
+                                        "id": "https://iiif.fitz.ms/iiif/3/5df23651-4e9a-4131-a84b-e0ccfe81e23f.tif/full/max/0/default.tif",
                                         "type": "Image",
                                         "format": "image/tiff",
-                                        "height": 1920,
-                                        "width": 2560,
+                                        "height": 2560,
+                                        "width": 1920,
                                         "label": {
                                             "en": [
                                                 "left ear, raking"
@@ -56,7 +56,7 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/6cc119f4-6386-4ba0-b708-ae8a69cdad47.tif",
+                                                "id": "https://iiif.fitz.ms/iiif/3/5df23651-4e9a-4131-a84b-e0ccfe81e23f.tif",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }

@@ -29,8 +29,8 @@
         {
             "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3868/micrograph/10/canvas/0",
             "type": "Canvas",
-            "height": 1920,
-            "width": 2560,
+            "height": 2560,
+            "width": 1920,
             "items": [
                 {
                     "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/FM 3868/micrograph/10page/0/0",
@@ -44,11 +44,11 @@
                                 "type": "Choice",
                                 "items": [
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/4c30ac75-309c-475f-94a9-cd8012e2dea1.tif/full/max/0/default.tif",
+                                        "id": "https://iiif.fitz.ms/iiif/3/8e7b67b1-e9d0-490b-b81e-135a21e8eef3.tif/full/max/0/default.tif",
                                         "type": "Image",
                                         "format": "image/tiff",
-                                        "height": 1920,
-                                        "width": 2560,
+                                        "height": 2560,
+                                        "width": 1920,
                                         "label": {
                                             "en": [
                                                 "hair and headdress on left side, raking"
@@ -56,7 +56,7 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/4c30ac75-309c-475f-94a9-cd8012e2dea1.tif",
+                                                "id": "https://iiif.fitz.ms/iiif/3/8e7b67b1-e9d0-490b-b81e-135a21e8eef3.tif",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
