@@ -4,12 +4,12 @@
     "type": "Manifest",
     "label": {
         "en": [
-            "Unknown Lady - hair and headdress on left side, raking"
+            "Unknown Lady - hair and headdress on left side, raking light"
         ]
     },
     "summary": {
         "en": [
-            "hair and headdress on left side, raking"
+            "hair and headdress on left side, raking light"
         ]
     },
     "requiredStatement": {
@@ -51,7 +51,7 @@
                                         "width": 1920,
                                         "label": {
                                             "en": [
-                                                "hair and headdress on left side, raking"
+                                                "hair and headdress on left side, raking light"
                                             ]
                                         },
                                         "service": [

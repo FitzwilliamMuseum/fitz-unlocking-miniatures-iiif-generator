@@ -4,12 +4,12 @@
     "type": "Manifest",
     "label": {
         "en": [
-            "Unknown Lady - hat and background, raking"
+            "Unknown Lady - hat and background, raking light"
         ]
     },
     "summary": {
         "en": [
-            "hat and background, raking"
+            "hat and background, raking light"
         ]
     },
     "requiredStatement": {
@@ -51,7 +51,7 @@
                                         "width": 2560,
                                         "label": {
                                             "en": [
-                                                "hat and background, raking"
+                                                "hat and background, raking light"
                                             ]
                                         },
                                         "service": [

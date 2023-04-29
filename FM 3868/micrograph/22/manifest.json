@@ -4,12 +4,12 @@
     "type": "Manifest",
     "label": {
         "en": [
-            "Unknown Lady - necklace, raking"
+            "Unknown Lady - necklace, raking light"
         ]
     },
     "summary": {
         "en": [
-            "necklace, raking"
+            "necklace, raking light"
         ]
     },
     "requiredStatement": {
@@ -51,7 +51,7 @@
                                         "width": 2560,
                                         "label": {
                                             "en": [
-                                                "necklace, raking"
+                                                "necklace, raking light"
                                             ]
                                         },
                                         "service": [
