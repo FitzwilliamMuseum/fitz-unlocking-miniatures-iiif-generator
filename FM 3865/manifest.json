@@ -61,6 +61,25 @@
                                         ]
                                     },
                                     {
+                                        "id": "https://iiif.fitz.ms/iiif/3/38493237-4b14-4268-b093-0023a6a40a4e.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 4209,
+                                        "width": 3457,
+                                        "label": {
+                                            "en": [
+                                                "Raking Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/38493237-4b14-4268-b093-0023a6a40a4e.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
                                         "id": "https://iiif.fitz.ms/iiif/3/885420e4-98b9-4ed0-8caa-fe6be81b7b26.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",

@@ -63,6 +63,25 @@
                                         ]
                                     },
                                     {
+                                        "id": "https://iiif.fitz.ms/iiif/3/09add3d3-9d69-453a-a1db-bf98304c905e.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 4926,
+                                        "width": 4037,
+                                        "label": {
+                                            "en": [
+                                                "Raking Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/09add3d3-9d69-453a-a1db-bf98304c905e.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
                                         "id": "https://iiif.fitz.ms/iiif/3/cd63d98c-5b02-4946-9877-877a6fb3b660.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",

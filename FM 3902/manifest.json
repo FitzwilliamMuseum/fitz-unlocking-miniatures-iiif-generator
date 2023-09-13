@@ -63,7 +63,26 @@
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/3f6e4240-31ee-4b63-bc0a-777c8265f1be.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/30d25110-bb5d-4b8c-90e6-5c3728ede2aa.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 5254,
+                                        "width": 5273,
+                                        "label": {
+                                            "en": [
+                                                "Raking Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/30d25110-bb5d-4b8c-90e6-5c3728ede2aa.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/6f4480e5-93e6-4265-ad87-4754ab46543c.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
                                         "height": 5254,
@@ -75,14 +94,14 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/3f6e4240-31ee-4b63-bc0a-777c8265f1be.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/6f4480e5-93e6-4265-ad87-4754ab46543c.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
                                         ]
                                     },
                                     {
-                                        "id": "https://iiif.fitz.ms/iiif/3/da12650c-5968-4b48-9cb3-7cd59df4db07.jpg/full/max/0/default.jpg",
+                                        "id": "https://iiif.fitz.ms/iiif/3/8660b730-b976-4106-84c1-996fcff07d2a.jpg/full/max/0/default.jpg",
                                         "type": "Image",
                                         "format": "image/jpeg",
                                         "height": 5254,
@@ -94,7 +113,7 @@
                                         },
                                         "service": [
                                             {
-                                                "id": "https://iiif.fitz.ms/iiif/3/da12650c-5968-4b48-9cb3-7cd59df4db07.jpg",
+                                                "id": "https://iiif.fitz.ms/iiif/3/8660b730-b976-4106-84c1-996fcff07d2a.jpg",
                                                 "type": "ImageService3",
                                                 "profile": "level2"
                                             }
