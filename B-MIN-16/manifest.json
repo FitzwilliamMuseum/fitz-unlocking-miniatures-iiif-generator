@@ -1,0 +1,164 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-16/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "A lady, called Lady Arabella Stuart (1575-1615)"
+        ]
+    },
+    "summary": {
+        "en": [
+            "A well-preserved portrait of a young female sitter with her long, curly hair hanging loose behind her shoulders. She is wearing an embroidered  bodice with low décolletage, a pearl and gold earring, a pearl choker with a large diamond and pearl-studded gold pendant suspended from a black string, and a long, black string necklace disappearing behind the lace-edged trim of the bodice. Her costume bears a strong resemblance with those worn by several female sitters by portrait painter William Larkin (active 1609-19) and his followers, such as Isabella Rich, Mrs. Rogers (1614-18), Jane, Lady Thornaugh (1617) and portraits of Frances Howard, Duchess of Richmond and Lennox.",
+            "The miniatures appears to be in a good state of preservation. Under UV light, no retouching is evident. \nSome features and material choices are unusual when compared to other Oliver miniatures. For instance, the white lace containing lead-tin yellow to achieve a warmer tone when painted over the dress, in contrast to the pure lead white lace painted over the flesh tones. The warm yellow base of the pendant contains lead-tin yellow with further reddish-brown detailing, which is also uncommon for Oliver. The presence of copper chlorides identified in the greens has never been identified in other Oliver's miniatures."
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-16/canvas/0",
+            "type": "Canvas",
+            "height": 3103,
+            "width": 2498,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-16/page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-16/painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/295c6d3f-bade-43da-8066-057006327277.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 3103,
+                                        "width": 2498,
+                                        "label": {
+                                            "en": [
+                                                "Natural Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/295c6d3f-bade-43da-8066-057006327277.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/256d56cd-10fe-4e59-87a2-4450a753dfa1.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 3103,
+                                        "width": 2498,
+                                        "label": {
+                                            "en": [
+                                                "Raking Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/256d56cd-10fe-4e59-87a2-4450a753dfa1.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/8005bf8d-f29e-4a64-aa16-40cb20564dc3.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 3103,
+                                        "width": 2498,
+                                        "label": {
+                                            "en": [
+                                                "Infrared"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/8005bf8d-f29e-4a64-aa16-40cb20564dc3.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/71073640-c4f3-41a5-9ea6-654f80d9c824.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 3103,
+                                        "width": 2498,
+                                        "label": {
+                                            "en": [
+                                                "Ultraviolet"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/71073640-c4f3-41a5-9ea6-654f80d9c824.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/9598a083-a15c-4634-82cc-0b3aa3ae89a3.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 3103,
+                                        "width": 2498,
+                                        "label": {
+                                            "en": [
+                                                "X-ray"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/9598a083-a15c-4634-82cc-0b3aa3ae89a3.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-16/canvas/0"
+                        }
+                    ]
+                }
+            ],
+            "physicalDimensions": {
+                "type": "PhysicalDimension",
+                "profile": "http://iiif.io/api/annex/extensions/physdim",
+                "physicalScale": 0.0168,
+                "physicalUnits": "mm"
+            },
+            "annotations": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-16/page/0/0",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        }
+    ]
+}
