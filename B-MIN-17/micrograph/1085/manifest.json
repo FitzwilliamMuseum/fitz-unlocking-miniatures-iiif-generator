@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-17/micrograph/1085/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "John Donne (1573-1631) - forehead and hair"
+        ]
+    },
+    "summary": {
+        "en": [
+            "forehead and hair"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-17/micrograph/1085/canvas/0",
+            "type": "Canvas",
+            "height": 2736,
+            "width": 3648,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-17/micrograph/1085page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-17/micrograph/1085painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/6a71edcd-47dc-4478-b931-3f193ac471dc.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 2736,
+                                        "width": 3648,
+                                        "label": {
+                                            "en": [
+                                                "forehead and hair"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/6a71edcd-47dc-4478-b931-3f193ac471dc.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-17/micrograph/1085/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

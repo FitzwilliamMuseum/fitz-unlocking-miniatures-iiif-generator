@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-17/micrograph/1150/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "John Donne (1573-1631) - face, raking light"
+        ]
+    },
+    "summary": {
+        "en": [
+            "face, raking light"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-17/micrograph/1150/canvas/0",
+            "type": "Canvas",
+            "height": 3648,
+            "width": 2736,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-17/micrograph/1150page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-17/micrograph/1150painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/bb767f27-cbaa-44a5-9b2f-2508399b8204.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3648,
+                                        "width": 2736,
+                                        "label": {
+                                            "en": [
+                                                "face, raking light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/bb767f27-cbaa-44a5-9b2f-2508399b8204.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-17/micrograph/1150/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

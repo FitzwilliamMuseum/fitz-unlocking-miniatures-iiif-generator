@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-17/micrograph/1147/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "John Donne (1573-1631) - ruff, proper left side"
+        ]
+    },
+    "summary": {
+        "en": [
+            "ruff, proper left side"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-17/micrograph/1147/canvas/0",
+            "type": "Canvas",
+            "height": 3648,
+            "width": 2736,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-17/micrograph/1147page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-17/micrograph/1147painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/00558af2-1a91-4be4-896a-c6b91a8f1328.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3648,
+                                        "width": 2736,
+                                        "label": {
+                                            "en": [
+                                                "ruff, proper left side"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/00558af2-1a91-4be4-896a-c6b91a8f1328.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-17/micrograph/1147/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
