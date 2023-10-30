@@ -27,7 +27,9 @@ export async function fetchMicrograph(id) {
 }
 
 export async function fetchAllMaXrf() {
-    const response = await fetch(apiBase + "items/ma_xrf_scans");
+    const url = apiBase + "items/ma_xrf_scans?limit=-1";
+    console.log("fetchAllMaXrf", url);
+    const response = await fetch(url);
     return (await response.json()).data;
 }
 
