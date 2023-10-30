@@ -20,7 +20,9 @@ export async function fetchMicrographAll() {
 }
 
 export async function fetchMicrograph(id) {
-    const response = await fetch(apiBase + "items/micrographs/" + id);
+    const url = apiBase + "items/micrographs/" + id;
+    console.log("fetchMicrograph url", url);
+    const response = await fetch(url);
     return (await response.json()).data;
 }
 
@@ -42,6 +44,8 @@ export async function downloadImage(id, outputFilePath, imageOptions) {
 }
 
 export async function fetchFileObject(id) {
-    const response = await fetch(apiBase + "files/" + id);
+    const url = apiBase + "files/" + id;
+    console.log("fetchFileObject url",url);
+    const response = await fetch(url);
     return (await response.json()).data;
 }
