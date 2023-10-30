@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29378/micrograph/608/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Portrait of a Lady - hair"
+        ]
+    },
+    "summary": {
+        "en": [
+            "hair"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29378/micrograph/608/canvas/0",
+            "type": "Canvas",
+            "height": 1024,
+            "width": 768,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29378/micrograph/608page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29378/micrograph/608painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/d03c6f3d-9013-47cd-a4c7-5b424999791a.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 1024,
+                                        "width": 768,
+                                        "label": {
+                                            "en": [
+                                                "hair"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/d03c6f3d-9013-47cd-a4c7-5b424999791a.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29378/micrograph/608/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

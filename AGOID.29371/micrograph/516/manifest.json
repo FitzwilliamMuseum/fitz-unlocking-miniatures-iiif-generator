@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29371/micrograph/516/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Jane Boughton, née Coningsby (b. 1553) - nose and mouth, raking light"
+        ]
+    },
+    "summary": {
+        "en": [
+            "nose and mouth, raking light"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29371/micrograph/516/canvas/0",
+            "type": "Canvas",
+            "height": 1024,
+            "width": 768,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29371/micrograph/516page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29371/micrograph/516painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/989b4bd8-f596-485c-b8ec-81fcb1a272de.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 1024,
+                                        "width": 768,
+                                        "label": {
+                                            "en": [
+                                                "nose and mouth, raking light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/989b4bd8-f596-485c-b8ec-81fcb1a272de.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29371/micrograph/516/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

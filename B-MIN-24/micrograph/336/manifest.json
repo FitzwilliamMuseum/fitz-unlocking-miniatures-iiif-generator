@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/336/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "A lady, formerly called Catherine, Countess of Suffolk (1566 - 1633) - Headdress and hair raking light (R)"
+        ]
+    },
+    "summary": {
+        "en": [
+            "Headdress and hair raking light (R)"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/336/canvas/0",
+            "type": "Canvas",
+            "height": 2736,
+            "width": 3648,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/336page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/336painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/64566943-7355-41cb-ae70-9bca297514a9.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 2736,
+                                        "width": 3648,
+                                        "label": {
+                                            "en": [
+                                                "Headdress and hair raking light (R)"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/64566943-7355-41cb-ae70-9bca297514a9.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/336/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

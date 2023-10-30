@@ -1,0 +1,669 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Unknown Woman, formerly called Anne, Lady Hundson (c. 1529–1607)"
+        ]
+    },
+    "summary": {
+        "en": [
+            "The sitter's complexion in this finely detailed portrait is unusually dark for Hilliard's palette, and the (Fe) MA-XRF map shows that this is likely caused by the unusual presence of earth pigment in the carnation.\nThe playing card back of this Hilliard miniature was not accessible for the analysis, but the mercury (Hg) MA-XRF map shows the presence of a single heart, at a sideways orientation, made of vermilion.",
+            "The UV image shows that this miniature is in a good state of preservation. The pale orange UV fluorescence colour (for instance evident on the ruff) is due to the presence of lead white.\n\nSilver has been detected in the pupils, presumably used to indicate a reflection of light, and gold and silver have been used extensively for the delicate ornamentation of the dress."
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0",
+            "type": "Canvas",
+            "height": 2914,
+            "width": 2375,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/cf7532a1-8d1b-4bd2-ad12-a094bbe1297b.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 2914,
+                                        "width": 2375,
+                                        "label": {
+                                            "en": [
+                                                "Natural Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/cf7532a1-8d1b-4bd2-ad12-a094bbe1297b.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/5409a93b-aa26-43a9-a87b-c3c026b9fc7f.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 2914,
+                                        "width": 2375,
+                                        "label": {
+                                            "en": [
+                                                "Raking Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/5409a93b-aa26-43a9-a87b-c3c026b9fc7f.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/97d2c881-c26b-49ed-a0a1-a97f06c14cff.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 2914,
+                                        "width": 2375,
+                                        "label": {
+                                            "en": [
+                                                "Infrared"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/97d2c881-c26b-49ed-a0a1-a97f06c14cff.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/73e53152-1800-4c23-b91c-7e7c9b02cf39.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 2914,
+                                        "width": 2375,
+                                        "label": {
+                                            "en": [
+                                                "Ultraviolet"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/73e53152-1800-4c23-b91c-7e7c9b02cf39.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/69e06eb7-89fe-45c0-8fb0-f7f8ac1b535e.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 2914,
+                                        "width": 2375,
+                                        "label": {
+                                            "en": [
+                                                "X-ray"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/69e06eb7-89fe-45c0-8fb0-f7f8ac1b535e.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0"
+                        }
+                    ]
+                }
+            ],
+            "physicalDimensions": {
+                "type": "PhysicalDimension",
+                "profile": "http://iiif.io/api/annex/extensions/physdim",
+                "physicalScale": 0.0196,
+                "physicalUnits": "mm"
+            },
+            "annotations": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/524",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>face</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/524/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/40da570e-c39e-48a1-a072-a3ef9cd26ee8?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"face\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/524/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/40da570e-c39e-48a1-a072-a3ef9cd26ee8?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/525",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>proper right ruff</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/525/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/4a2fba78-bdb1-42cf-ae8a-cc8fb287b62f?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"proper right ruff\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/525/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/4a2fba78-bdb1-42cf-ae8a-cc8fb287b62f?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/526",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>proper left ruff</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/526/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/3e601fce-c955-443e-b2d1-3b112869607c?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"proper left ruff\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/526/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/3e601fce-c955-443e-b2d1-3b112869607c?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/527",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>headdress</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/527/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/544cf953-1564-42c7-9a45-eb7467536799?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"headdress\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/527/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/544cf953-1564-42c7-9a45-eb7467536799?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/528",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>ruff, central area</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/528/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/882cec41-f3b3-425d-ba86-5c0701925e65?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"ruff, central area\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/528/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/882cec41-f3b3-425d-ba86-5c0701925e65?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/529",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>dress, central bust</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/529/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/55bf4574-6173-412c-a723-8ed1bbf86fdb?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"dress, central bust\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/529/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/55bf4574-6173-412c-a723-8ed1bbf86fdb?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/530",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>dress, proper right side</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/530/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/5e63fd26-208a-4524-a625-8e0bbe895dda?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"dress, proper right side\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/530/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/5e63fd26-208a-4524-a625-8e0bbe895dda?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/531",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>dress, proper left side</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/531/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/55200d51-f1de-4d46-a9c8-de4382af757c?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"dress, proper left side\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/531/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/55200d51-f1de-4d46-a9c8-de4382af757c?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/532",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>dress, proper left side</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/532/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/55732bab-021e-4b2d-823a-0702fcd176b9?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"dress, proper left side\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/532/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/55732bab-021e-4b2d-823a-0702fcd176b9?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/533",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>ruff, proper left side</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/533/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/55ef180b-115e-46b6-8aff-7c072a587c2f?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"ruff, proper left side\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/533/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/55ef180b-115e-46b6-8aff-7c072a587c2f?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/534",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>face</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/534/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/0fc163ca-c451-4665-9dbf-535466f5f578?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"face\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/534/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/0fc163ca-c451-4665-9dbf-535466f5f578?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/535",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>dress, proper left side</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/535/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/3b66a813-7a5a-4243-b1fd-451ca5f7b785?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"dress, proper left side\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/535/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/3b66a813-7a5a-4243-b1fd-451ca5f7b785?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/536",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>dress, central bust</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/536/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/5f6d3e78-4af6-40d4-b2f7-829c78fc27be?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"dress, central bust\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/536/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/5f6d3e78-4af6-40d4-b2f7-829c78fc27be?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/537",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>dress, proper left side</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/537/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/76c39fd9-e6f5-4438-9e10-6ff51f38f23d?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"dress, proper left side\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/537/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/76c39fd9-e6f5-4438-9e10-6ff51f38f23d?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/538",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>proper right ruff</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/538/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/a267da7c-bbaf-4dd6-818b-f7094176b715?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"proper right ruff\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/538/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/a267da7c-bbaf-4dd6-818b-f7094176b715?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/539",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>hair, proper right side</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/539/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/191f6a46-aca0-4f7f-8a48-9094df2f062c?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"hair, proper right side\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/539/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/191f6a46-aca0-4f7f-8a48-9094df2f062c?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/540",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>ruff</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/540/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/c0c7d6f2-8ba7-4017-b1d7-1f08496ef4dc?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"ruff\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/540/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/c0c7d6f2-8ba7-4017-b1d7-1f08496ef4dc?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/541",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>nose</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/541/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/f2362d16-08fd-4716-a992-4b63d7a03fb5?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"nose\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/541/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/f2362d16-08fd-4716-a992-4b63d7a03fb5?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/542",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>jewellery on the dress, details</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/542/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/3e39f353-8b3e-45e4-9e58-ebfe34e175f6?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"jewellery on the dress, details\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/542/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/3e39f353-8b3e-45e4-9e58-ebfe34e175f6?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/543",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>lace, detail</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/543/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/856cb371-ee33-4671-8380-359250c03e75?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"lace, detail\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/543/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/856cb371-ee33-4671-8380-359250c03e75?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/544",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>lace, detail</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/544/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/46ca0e39-fc6e-4f79-b508-4ac50ee236f0?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"lace, detail\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/544/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/46ca0e39-fc6e-4f79-b508-4ac50ee236f0?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/545",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>gems on the dress, detail</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/545/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/a01636ed-bec0-45ce-8408-d608f9be2150?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"gems on the dress, detail\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/545/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/a01636ed-bec0-45ce-8408-d608f9be2150?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/546",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>headdress, proper left side, detail</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/546/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/3abd85b5-50ec-4de0-b8e5-6587e806a9d4?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"headdress, proper left side, detail\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/546/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/3abd85b5-50ec-4de0-b8e5-6587e806a9d4?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/547",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>headdress, proper right side, detail</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/547/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/34fb97d5-385f-4cca-821b-693c51218a30?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"headdress, proper right side, detail\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/547/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/34fb97d5-385f-4cca-821b-693c51218a30?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/548",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>lace, detail</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/548/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/5acdac14-e77e-4ea0-b64e-3d6b1487dbb8?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"lace, detail\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/548/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/5acdac14-e77e-4ea0-b64e-3d6b1487dbb8?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/549",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>proper right eye</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/549/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/ad46bf45-077f-4640-a149-5fec6c37244f?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"proper right eye\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/549/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/ad46bf45-077f-4640-a149-5fec6c37244f?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/550",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>proper left eye</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/550/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/5e83db39-b47f-477c-a124-bfa030276829?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"proper left eye\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/550/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/5e83db39-b47f-477c-a124-bfa030276829?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/551",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>mouth</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/551/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/6663f03c-2c6e-4793-904a-87ccb77eca85?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"mouth\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/551/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/6663f03c-2c6e-4793-904a-87ccb77eca85?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/552",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>mouth, raking light</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/552/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/96b4ed83-0465-4da5-984f-58398e848fe7?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"mouth, raking light\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/552/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/96b4ed83-0465-4da5-984f-58398e848fe7?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/553",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>proper right eye, raking light</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/553/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/e169c034-82f2-4faf-9936-42653e7e38fd?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"proper right eye, raking light\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/553/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/e169c034-82f2-4faf-9936-42653e7e38fd?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/554",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>proper left eye, raking light</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/554/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/fe1f25be-29de-4695-b410-9df1271a04ae?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"proper left eye, raking light\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/554/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/fe1f25be-29de-4695-b410-9df1271a04ae?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/555",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>gems on dress, detail, raking light</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/555/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/ac3717d6-e368-4042-809e-36e424dd1cdf?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"gems on dress, detail, raking light\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/555/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/ac3717d6-e368-4042-809e-36e424dd1cdf?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/556",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>nose, raking light</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/556/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/77d343c2-aa76-4959-a67c-5c30e4f8ecc3?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"nose, raking light\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/556/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/77d343c2-aa76-4959-a67c-5c30e4f8ecc3?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/557",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>ruff, raking light</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/557/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/9b2ccd39-ec7b-4741-9226-885453aadfa6?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"ruff, raking light\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/557/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/9b2ccd39-ec7b-4741-9226-885453aadfa6?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/558",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>face, raking light</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/558/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/4298c9d1-2029-4858-b1fe-5fc72c8c7562?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"face, raking light\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/558/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/4298c9d1-2029-4858-b1fe-5fc72c8c7562?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/559",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>hair and headdress, raking light</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/559/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/a4238fbe-2ed9-432a-a329-8e14e5b8275d?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"hair and headdress, raking light\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/559/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/a4238fbe-2ed9-432a-a329-8e14e5b8275d?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/560",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>ruff, raking light</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/560/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/5f8fcdf3-af94-4a9d-b8cf-08bd42a33b9d?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"ruff, raking light\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/560/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/5f8fcdf3-af94-4a9d-b8cf-08bd42a33b9d?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/561",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>dress, raking light</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/561/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/94e0796b-a52d-4b80-a439-b3dd85bb4fe4?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"dress, raking light\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/561/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/94e0796b-a52d-4b80-a439-b3dd85bb4fe4?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/562",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>ruff, raking light</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/562/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/f14f1e46-f31b-4d7d-96b7-1c6a49601b60?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"ruff, raking light\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/562/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/f14f1e46-f31b-4d7d-96b7-1c6a49601b60?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/563",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>ruff, proper left side, raking light</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/563/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/00a5d396-fc5b-4a45-a687-dab1d17e75ee?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"ruff, proper left side, raking light\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/563/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/00a5d396-fc5b-4a45-a687-dab1d17e75ee?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/564",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>hair, proper left side, raking light</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/564/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/985ab39e-d1a6-439d-8702-164146cc23e6?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"hair, proper left side, raking light\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/564/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/985ab39e-d1a6-439d-8702-164146cc23e6?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        },
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/annotation/tag/567",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>ruff and mouth, raking light</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/567/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/4981e3ee-a131-4cef-ad44-db2f09df4d6c?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"ruff and mouth, raking light\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/567/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/4981e3ee-a131-4cef-ad44-db2f09df4d6c?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/canvas/0#xywh=null,null,null,null"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

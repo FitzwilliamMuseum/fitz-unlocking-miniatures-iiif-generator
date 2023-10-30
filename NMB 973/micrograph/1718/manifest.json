@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 973/micrograph/1718/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "George Clifford (1558-1605), 3rd Earl of Cumberland, Admiral - collar at the proper left side"
+        ]
+    },
+    "summary": {
+        "en": [
+            "collar at the proper left side"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 973/micrograph/1718/canvas/0",
+            "type": "Canvas",
+            "height": 3840,
+            "width": 2160,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 973/micrograph/1718page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 973/micrograph/1718painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/edfcb193-c575-4d99-bd7a-1a5a95def252.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 3840,
+                                        "width": 2160,
+                                        "label": {
+                                            "en": [
+                                                "collar at the proper left side"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/edfcb193-c575-4d99-bd7a-1a5a95def252.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 973/micrograph/1718/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

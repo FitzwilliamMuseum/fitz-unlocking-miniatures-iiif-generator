@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 974/micrograph/1752/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "George Clifford (1558-1605), 3rd Earl of Cumberland, Admiral - hat, brim area"
+        ]
+    },
+    "summary": {
+        "en": [
+            "hat, brim area"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 974/micrograph/1752/canvas/0",
+            "type": "Canvas",
+            "height": 2160,
+            "width": 3840,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 974/micrograph/1752page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 974/micrograph/1752painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/75a9757f-d697-4f6b-b833-a05c1a1bbd8a.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 2160,
+                                        "width": 3840,
+                                        "label": {
+                                            "en": [
+                                                "hat, brim area"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/75a9757f-d697-4f6b-b833-a05c1a1bbd8a.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 974/micrograph/1752/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

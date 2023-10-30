@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/547/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Unknown Woman, formerly called Anne, Lady Hundson (c. 1529–1607) - headdress, proper right side, detail"
+        ]
+    },
+    "summary": {
+        "en": [
+            "headdress, proper right side, detail"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/547/canvas/0",
+            "type": "Canvas",
+            "height": 1024,
+            "width": 768,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/547page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/547painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/34fb97d5-385f-4cca-821b-693c51218a30.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 1024,
+                                        "width": 768,
+                                        "label": {
+                                            "en": [
+                                                "headdress, proper right side, detail"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/34fb97d5-385f-4cca-821b-693c51218a30.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/547/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

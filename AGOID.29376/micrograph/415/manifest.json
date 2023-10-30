@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29376/micrograph/415/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Portrait of a young woman, called Mrs Cam of Newport, Gloucestershire - proper left eye"
+        ]
+    },
+    "summary": {
+        "en": [
+            "proper left eye"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29376/micrograph/415/canvas/0",
+            "type": "Canvas",
+            "height": 768,
+            "width": 1024,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29376/micrograph/415page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29376/micrograph/415painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/3853a7a5-ea52-46ec-bb21-b12d0f4434bc.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 768,
+                                        "width": 1024,
+                                        "label": {
+                                            "en": [
+                                                "proper left eye"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/3853a7a5-ea52-46ec-bb21-b12d0f4434bc.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29376/micrograph/415/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

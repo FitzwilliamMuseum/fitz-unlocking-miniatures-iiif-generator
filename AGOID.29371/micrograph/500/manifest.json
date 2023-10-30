@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29371/micrograph/500/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Jane Boughton, née Coningsby (b. 1553) - collar and dress"
+        ]
+    },
+    "summary": {
+        "en": [
+            "collar and dress"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29371/micrograph/500/canvas/0",
+            "type": "Canvas",
+            "height": 1024,
+            "width": 768,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29371/micrograph/500page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29371/micrograph/500painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/e1d06b79-64eb-450c-aa73-2ad6e9f52ca4.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 1024,
+                                        "width": 768,
+                                        "label": {
+                                            "en": [
+                                                "collar and dress"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/e1d06b79-64eb-450c-aa73-2ad6e9f52ca4.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29371/micrograph/500/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/331/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "A lady, formerly called Catherine, Countess of Suffolk (1566 - 1633) - Hair and inscription raking light"
+        ]
+    },
+    "summary": {
+        "en": [
+            "Hair and inscription raking light"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/331/canvas/0",
+            "type": "Canvas",
+            "height": 2736,
+            "width": 3648,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/331page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/331painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/29e52955-7d2b-4625-a9d7-03b6a50be0b6.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 2736,
+                                        "width": 3648,
+                                        "label": {
+                                            "en": [
+                                                "Hair and inscription raking light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/29e52955-7d2b-4625-a9d7-03b6a50be0b6.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/331/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

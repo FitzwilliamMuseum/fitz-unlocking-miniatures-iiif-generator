@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/326/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "A lady, formerly called Catherine, Countess of Suffolk (1566 - 1633) - Necklace raking light (R)"
+        ]
+    },
+    "summary": {
+        "en": [
+            "Necklace raking light (R)"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/326/canvas/0",
+            "type": "Canvas",
+            "height": 2736,
+            "width": 3648,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/326page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/326painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/a6229587-1135-48cf-a554-8b9c855b73ba.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 2736,
+                                        "width": 3648,
+                                        "label": {
+                                            "en": [
+                                                "Necklace raking light (R)"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/a6229587-1135-48cf-a554-8b9c855b73ba.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/326/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

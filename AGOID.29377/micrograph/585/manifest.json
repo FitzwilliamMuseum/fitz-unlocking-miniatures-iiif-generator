@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29377/micrograph/585/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Unknown Man, formerly called Edward, Baron Herbert of Cherbury - proper left eye"
+        ]
+    },
+    "summary": {
+        "en": [
+            "proper left eye"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29377/micrograph/585/canvas/0",
+            "type": "Canvas",
+            "height": 768,
+            "width": 1024,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29377/micrograph/585page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29377/micrograph/585painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/0bb91437-6a34-4f62-8498-73bd7016cbb3.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 768,
+                                        "width": 1024,
+                                        "label": {
+                                            "en": [
+                                                "proper left eye"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/0bb91437-6a34-4f62-8498-73bd7016cbb3.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29377/micrograph/585/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 974/micrograph/1773/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "George Clifford (1558-1605), 3rd Earl of Cumberland, Admiral - doublet and lace, raking light"
+        ]
+    },
+    "summary": {
+        "en": [
+            "doublet and lace, raking light"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 974/micrograph/1773/canvas/0",
+            "type": "Canvas",
+            "height": 2160,
+            "width": 3840,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 974/micrograph/1773page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 974/micrograph/1773painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/bbac6830-b22b-4028-a9b6-6d5c1ec437b2.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 2160,
+                                        "width": 3840,
+                                        "label": {
+                                            "en": [
+                                                "doublet and lace, raking light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/bbac6830-b22b-4028-a9b6-6d5c1ec437b2.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 974/micrograph/1773/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

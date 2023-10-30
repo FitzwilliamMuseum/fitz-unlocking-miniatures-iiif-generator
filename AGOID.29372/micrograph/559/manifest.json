@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/559/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Unknown Woman, formerly called Anne, Lady Hundson (c. 1529–1607) - hair and headdress, raking light"
+        ]
+    },
+    "summary": {
+        "en": [
+            "hair and headdress, raking light"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/559/canvas/0",
+            "type": "Canvas",
+            "height": 768,
+            "width": 1024,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/559page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/559painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/a4238fbe-2ed9-432a-a329-8e14e5b8275d.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 768,
+                                        "width": 1024,
+                                        "label": {
+                                            "en": [
+                                                "hair and headdress, raking light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/a4238fbe-2ed9-432a-a329-8e14e5b8275d.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29372/micrograph/559/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

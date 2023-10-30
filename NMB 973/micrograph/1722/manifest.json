@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 973/micrograph/1722/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "George Clifford (1558-1605), 3rd Earl of Cumberland, Admiral - proper right eye"
+        ]
+    },
+    "summary": {
+        "en": [
+            "proper right eye"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 973/micrograph/1722/canvas/0",
+            "type": "Canvas",
+            "height": 2160,
+            "width": 3840,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 973/micrograph/1722page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 973/micrograph/1722painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/76b429f7-21bd-458e-8c55-f1410c992408.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 2160,
+                                        "width": 3840,
+                                        "label": {
+                                            "en": [
+                                                "proper right eye"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/76b429f7-21bd-458e-8c55-f1410c992408.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 973/micrograph/1722/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

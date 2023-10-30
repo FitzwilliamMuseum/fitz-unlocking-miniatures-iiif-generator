@@ -138,63 +138,6 @@
                                                 "profile": "level2"
                                             }
                                         ]
-                                    },
-                                    {
-                                        "id": "https://iiif.fitz.ms/iiif/3/22019243-cdaf-4a05-93f7-5aa05124c80c.tif/full/max/0/default.tif",
-                                        "type": "Image",
-                                        "format": "image/tiff",
-                                        "height": 3114,
-                                        "width": 2508,
-                                        "label": {
-                                            "en": [
-                                                "MA-XRF Silicon (Si)"
-                                            ]
-                                        },
-                                        "service": [
-                                            {
-                                                "id": "https://iiif.fitz.ms/iiif/3/22019243-cdaf-4a05-93f7-5aa05124c80c.tif",
-                                                "type": "ImageService3",
-                                                "profile": "level2"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "https://iiif.fitz.ms/iiif/3/634b4fc5-2a05-4402-9203-8af8cb0320ff.tif/full/max/0/default.tif",
-                                        "type": "Image",
-                                        "format": "image/tiff",
-                                        "height": 3114,
-                                        "width": 2508,
-                                        "label": {
-                                            "en": [
-                                                "MA-XRF Tin (Sn)"
-                                            ]
-                                        },
-                                        "service": [
-                                            {
-                                                "id": "https://iiif.fitz.ms/iiif/3/634b4fc5-2a05-4402-9203-8af8cb0320ff.tif",
-                                                "type": "ImageService3",
-                                                "profile": "level2"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "id": "https://iiif.fitz.ms/iiif/3/4632e4a9-b1a5-4551-8cc6-11e2406f2c28.tif/full/max/0/default.tif",
-                                        "type": "Image",
-                                        "format": "image/tiff",
-                                        "height": 3114,
-                                        "width": 2508,
-                                        "label": {
-                                            "en": [
-                                                "MA-XRF Titanium (Ti)"
-                                            ]
-                                        },
-                                        "service": [
-                                            {
-                                                "id": "https://iiif.fitz.ms/iiif/3/4632e4a9-b1a5-4551-8cc6-11e2406f2c28.tif",
-                                                "type": "ImageService3",
-                                                "profile": "level2"
-                                            }
-                                        ]
                                     }
                                 ]
                             },

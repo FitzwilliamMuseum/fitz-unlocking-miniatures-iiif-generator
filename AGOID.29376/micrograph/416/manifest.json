@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29376/micrograph/416/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Portrait of a young woman, called Mrs Cam of Newport, Gloucestershire - mouth"
+        ]
+    },
+    "summary": {
+        "en": [
+            "mouth"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29376/micrograph/416/canvas/0",
+            "type": "Canvas",
+            "height": 768,
+            "width": 1024,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29376/micrograph/416page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29376/micrograph/416painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/7674845e-a6fd-4f3f-ab0f-1f4b6602722f.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 768,
+                                        "width": 1024,
+                                        "label": {
+                                            "en": [
+                                                "mouth"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/7674845e-a6fd-4f3f-ab0f-1f4b6602722f.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/AGOID.29376/micrograph/416/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

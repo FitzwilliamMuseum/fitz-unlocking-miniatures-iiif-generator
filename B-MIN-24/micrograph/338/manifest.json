@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/338/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "A lady, formerly called Catherine, Countess of Suffolk (1566 - 1633) - Costume detail chest and arm (R)"
+        ]
+    },
+    "summary": {
+        "en": [
+            "Costume detail chest and arm (R)"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/338/canvas/0",
+            "type": "Canvas",
+            "height": 2736,
+            "width": 3648,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/338page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/338painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/dc0359fd-a9a7-4327-8ff8-4c27446f2f82.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 2736,
+                                        "width": 3648,
+                                        "label": {
+                                            "en": [
+                                                "Costume detail chest and arm (R)"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/dc0359fd-a9a7-4327-8ff8-4c27446f2f82.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-24/micrograph/338/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

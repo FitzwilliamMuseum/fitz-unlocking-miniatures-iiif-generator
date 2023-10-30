@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 974/micrograph/1754/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "George Clifford (1558-1605), 3rd Earl of Cumberland, Admiral - hat, top area"
+        ]
+    },
+    "summary": {
+        "en": [
+            "hat, top area"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 974/micrograph/1754/canvas/0",
+            "type": "Canvas",
+            "height": 2160,
+            "width": 3840,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 974/micrograph/1754page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 974/micrograph/1754painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/f3bc0ca4-ba3c-4a5d-a898-47f0283de4f0.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 2160,
+                                        "width": 3840,
+                                        "label": {
+                                            "en": [
+                                                "hat, top area"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/f3bc0ca4-ba3c-4a5d-a898-47f0283de4f0.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/NMB 974/micrograph/1754/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
