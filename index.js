@@ -216,9 +216,11 @@ async function main() {
 
                 const micrographId = data[fieldMap.annotation.key][j];
 
+                console.log("micrograph index", j);
+                console.log("micrographId", micrographId);
                 const currentItem = await fetchMicrograph(micrographId);
-                if (!currentItem || !currentItem.hotspot) continue
-                console.log("micrograph", j);
+                if (!currentItem || !currentItem.hotspot || !currentItem.micrograph) continue
+                console.log("micrograph hotspot", true);
 
                 const annotationItemId = basePath + path.join("annotation/tag/", currentItem.id.toString());
                 const targetCoords = `${currentItem[fieldMap.annotation.x]},${currentItem[fieldMap.annotation.y]},${currentItem[fieldMap.annotation.w]},${currentItem[fieldMap.annotation.h]}`;
