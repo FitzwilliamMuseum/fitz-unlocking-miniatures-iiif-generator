@@ -1,0 +1,74 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/KMS 6938/micrograph/1849/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "A party in the open air. Allegory on conjugal love - man with orange hat and foliage, raking light"
+        ]
+    },
+    "summary": {
+        "en": [
+            "man with orange hat and foliage, raking light"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/KMS 6938/micrograph/1849/canvas/0",
+            "type": "Canvas",
+            "height": 1944,
+            "width": 2592,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/KMS 6938/micrograph/1849page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/KMS 6938/micrograph/1849painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/7860baf0-5060-4b44-864f-b4444b90dc38.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 1944,
+                                        "width": 2592,
+                                        "label": {
+                                            "en": [
+                                                "man with orange hat and foliage, raking light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/7860baf0-5060-4b44-864f-b4444b90dc38.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/KMS 6938/micrograph/1849/canvas/0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

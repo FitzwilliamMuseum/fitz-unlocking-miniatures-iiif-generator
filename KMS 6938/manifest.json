@@ -155,7 +155,20 @@
                 {
                     "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/KMS 6938/page/0/0",
                     "type": "AnnotationPage",
-                    "items": []
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/KMS 6938/annotation/tag/1849",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "<div>\n                <p>man with orange hat and foliage, raking light</p>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/KMS%206938/micrograph/1849/manifest.json alt=\"Open in Mirador\"><img src=\"https://unlocking-miniatures.fitz.ms/assets/7860baf0-5060-4b44-864f-b4444b90dc38?format=jpg&width=300&withoutEnlargement&quality=80\" alt=\"man with orange hat and foliage, raking light\"/></a>\n                <a href=https://miniatures-iiif.fitzmuseum.cam.ac.uk/KMS%206938/micrograph/1849/manifest.json target=\"__blank\">Open iiif Manifest URL</a>\n                <a href=https://unlocking-miniatures.fitz.ms/assets/7860baf0-5060-4b44-864f-b4444b90dc38?format=jpg&width=1920&withoutEnlargement&quality=80 target=\"__blank\">Download image</a>\n                </div>",
+                                "language": "en",
+                                "format": "text/html"
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/KMS 6938/canvas/0#xywh=null,null,null,null"
+                        }
+                    ]
                 }
             ]
         }
