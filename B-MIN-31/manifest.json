@@ -1,0 +1,410 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-31/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "A lady, called Theresia, Lady Shirley"
+        ]
+    },
+    "summary": {
+        "en": [
+            "The miniature is in a good state of preservation.\nUnder UV light, red organic dyes used to paint the dress and the pink flowers of the headdress give a pinkish UV fluorescence. Lead white, used on the lace, pearls, flesh tones and white flowers, appears pale orange."
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-31/canvas/0",
+            "type": "Canvas",
+            "height": 3038,
+            "width": 2416,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-31/page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-31/painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/1261671d-8e3e-456d-9773-99ee7e109e33.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "Natural Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/1261671d-8e3e-456d-9773-99ee7e109e33.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/09d9f6d7-ebd4-49d8-9158-a5927cad2226.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "Raking Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/09d9f6d7-ebd4-49d8-9158-a5927cad2226.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/2f77035f-0c2b-4cea-9029-5d264aa6f6c3.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "Infrared"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/2f77035f-0c2b-4cea-9029-5d264aa6f6c3.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/e740f130-96a3-404c-aaf7-a63cb449051c.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "Ultraviolet"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/e740f130-96a3-404c-aaf7-a63cb449051c.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/76412b06-c85a-45cf-aff4-4b11bbf1f9a0.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "X-ray"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/76412b06-c85a-45cf-aff4-4b11bbf1f9a0.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/c4f92bcd-0ae0-4557-a47b-8c1a13f7d63c.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Gold (Au)"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/c4f92bcd-0ae0-4557-a47b-8c1a13f7d63c.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/9718ba29-1410-4b00-9bb2-23166da179b6.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Barium (Ba)"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/9718ba29-1410-4b00-9bb2-23166da179b6.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/e60a1c99-23eb-4637-b7dc-b0913bbd5139.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Calcium (Ca)"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/e60a1c99-23eb-4637-b7dc-b0913bbd5139.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/b64002ad-0e4b-4204-8eb8-d7c57e27ffe1.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Cobalt (Co)"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/b64002ad-0e4b-4204-8eb8-d7c57e27ffe1.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/89ed2faa-0048-4f0f-8014-f66d502864ba.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Copper (Cu)"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/89ed2faa-0048-4f0f-8014-f66d502864ba.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/7c07938a-430a-4289-bf5b-f56b62a49ad9.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Iron (Fe)"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/7c07938a-430a-4289-bf5b-f56b62a49ad9.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/52f26b23-5e67-477c-8eca-c3ccda56632b.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Mercury (Hg)"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/52f26b23-5e67-477c-8eca-c3ccda56632b.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/f0254be9-9d65-4d70-a77c-0fd84bf13381.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Potassium (K)"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/f0254be9-9d65-4d70-a77c-0fd84bf13381.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/22e80717-ae35-4eb8-a9f6-21efc30b88f8.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Manganese (Mn)"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/22e80717-ae35-4eb8-a9f6-21efc30b88f8.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/e01beee9-5b61-4e87-9fcd-a73807bceda8.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Lead (Pb-LA)"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/e01beee9-5b61-4e87-9fcd-a73807bceda8.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/a0c8bb8f-b16e-4175-bdd2-665db0f1d8e5.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Lead (Pb-MA)"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/a0c8bb8f-b16e-4175-bdd2-665db0f1d8e5.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/104941ce-95b1-480e-a9ec-f41516e3e651.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Tin (Sn)"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/104941ce-95b1-480e-a9ec-f41516e3e651.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/9a6125f8-7312-46dc-b6e3-18fb15049fd2.tif/full/max/0/default.tif",
+                                        "type": "Image",
+                                        "format": "image/tiff",
+                                        "height": 3038,
+                                        "width": 2416,
+                                        "label": {
+                                            "en": [
+                                                "MA-XRF Zinc (Zn)"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/9a6125f8-7312-46dc-b6e3-18fb15049fd2.tif",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-31/canvas/0"
+                        }
+                    ]
+                }
+            ],
+            "physicalDimensions": {
+                "type": "PhysicalDimension",
+                "profile": "http://iiif.io/api/annex/extensions/physdim",
+                "physicalScale": 0.0194,
+                "physicalUnits": "mm"
+            },
+            "annotations": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/B-MIN-31/page/0/0",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        }
+    ]
+}

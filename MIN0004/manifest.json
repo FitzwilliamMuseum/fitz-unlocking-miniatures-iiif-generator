@@ -1,0 +1,144 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/MIN0004/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Robert Devereux, 2nd Earl of Essex"
+        ]
+    },
+    "summary": {
+        "en": [
+            "Under UV light the background appears bright pink, suggesting the use of a red organic dye. Localised retouching are evident as they appear bright white, due to the use of zinc white."
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Collection"
+            ]
+        },
+        "value": {
+            "en": [
+                "Fitzwilliam Museum"
+            ]
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "items": [
+        {
+            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/MIN0004/canvas/0",
+            "type": "Canvas",
+            "height": 2655,
+            "width": 2202,
+            "items": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/MIN0004/page/0/0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/MIN0004/painting/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/81ddfa8d-4362-4a68-af8b-053635bb8065.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 2655,
+                                        "width": 2202,
+                                        "label": {
+                                            "en": [
+                                                "Natural Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/81ddfa8d-4362-4a68-af8b-053635bb8065.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/4e9b3270-73c9-4c43-ac1b-3e0c6cd58bb0.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 2655,
+                                        "width": 2202,
+                                        "label": {
+                                            "en": [
+                                                "Raking Light"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/4e9b3270-73c9-4c43-ac1b-3e0c6cd58bb0.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/8653430c-2eac-4999-af0a-05e462a99ed0.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 2655,
+                                        "width": 2202,
+                                        "label": {
+                                            "en": [
+                                                "Infrared"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/8653430c-2eac-4999-af0a-05e462a99ed0.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "https://iiif.fitz.ms/iiif/3/e1e66998-5afd-440f-9f98-a976a2784983.jpg/full/max/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "height": 2655,
+                                        "width": 2202,
+                                        "label": {
+                                            "en": [
+                                                "Ultraviolet"
+                                            ]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://iiif.fitz.ms/iiif/3/e1e66998-5afd-440f-9f98-a976a2784983.jpg",
+                                                "type": "ImageService3",
+                                                "profile": "level2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/MIN0004/canvas/0"
+                        }
+                    ]
+                }
+            ],
+            "physicalDimensions": {
+                "type": "PhysicalDimension",
+                "profile": "http://iiif.io/api/annex/extensions/physdim",
+                "physicalScale": 0.0218,
+                "physicalUnits": "mm"
+            },
+            "annotations": [
+                {
+                    "id": "https://miniatures-iiif.fitzmuseum.cam.ac.uk/MIN0004/page/0/0",
+                    "type": "AnnotationPage",
+                    "items": []
+                }
+            ]
+        }
+    ]
+}
